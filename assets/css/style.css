@@ -6,13 +6,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: inherit;
+    text-decoration-color: inherit;
+    color:inherit;
 }
 
 /* General Styles */
 body {
     /*Generic font */
     Color: 	#333333;
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 h1 {
@@ -37,5 +40,10 @@ main {
 
 /* Footer */
 footer {
-    background-color: blueviolet;
+    background-color: rgb(50, 50, 50);
 }
+
+#social-networks > li {
+    font-size: 20px !important;
+    color: white !important;
+    }
