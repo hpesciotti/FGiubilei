@@ -6,44 +6,82 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* Fix bug in font awesome format in the footer element */
     text-decoration: inherit;
     text-decoration-color: inherit;
-    color:inherit;
+    color: inherit;
 }
 
 /* General Styles */
 body {
     /*Generic font */
-    Color: 	#333333;
+    Color: #fafafa;
     font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
 }
 
 h1 {
     /* Hero Image Font */
-    Color: 	#333333;
+    Color: #fafafa;
     font-family: 'Rubik', sans-serif;
     font-weight: 650;
     font-style: bold;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 /* Header */
 header {
-    background-color: aqua;
+    background: rgb(34, 138, 255);
+    background: linear-gradient(73deg, rgba(34, 138, 255, 1) 5%, rgba(58, 56, 217, 1) 98%);
+
+    @media screen and (min-width: 768px) {
+        background: rgb(34, 138, 255);
+        background: linear-gradient(90deg, rgba(34, 138, 255, 1) 0%, rgba(58, 56, 217, 1) 26%, rgba(127, 20, 240, 1) 100%);
+    }
 }
 
 /* Main Content */
 main {
-    background-color: bisque;
+    background-color: #F6F4EA;
+    /* Make the main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
+    /* margin-top: 47px; */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Footer */
 footer {
-    background-color: rgb(50, 50, 50);
+    background-color: #1C3C44;
+    padding: 5px;
 }
 
-#social-networks > li {
-    font-size: 30px;
-    color: white;
-    }
+footer > p {
+    font-size:10px;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+#social-networks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+#social-networks>li {
+    font-size: 15px;
+    color: #F6F4EA;
+    list-style: none;
+}
+
+#social-networks a:hover {
+    color: #fafafa;
+    font-size: 105%;
+}
