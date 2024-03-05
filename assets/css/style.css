@@ -68,8 +68,7 @@ nav {
     width:100%;
     padding: 0 2em;
     box-shadow: 0 1px 1px #334C54;
-    background: rgb(34, 138, 255);
-    background: linear-gradient(73deg, rgba(34, 138, 255, 1) 5%, rgba(58, 56, 217, 1) 98%);
+    background: inherit;
     display: none;
     top: 100%;
 }
@@ -85,6 +84,10 @@ nav {
 
 .nav-toggle-label {
     font-size: 140%;
+}
+
+header img {
+    padding-left: 0.35em;
 }
 
 /* Main Content */
@@ -107,7 +110,7 @@ footer p {
     font-size: 10px;
     text-align: center;
     font-weight: bold;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.4em;
 }
 
 #social-networks {
@@ -135,6 +138,9 @@ footer p {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 15px;
+        gap: 15px;}
+    footer p {
+        font-size: 12.5px;
+        padding-bottom: 0;}
     }
 }
