@@ -49,10 +49,6 @@ nav li {
     margin-bottom: 0.3em;
 }
 
-nav li:hover {
-    font-weight: 500;
-}
-
 .nav-selected {
     font-weight: 550;
     color: #fafafa
@@ -90,7 +86,7 @@ main {
     background-color: #F6F4EA;
     /* Make the main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
-    /* margin-top: 47px; */
+    margin-top: 47px;
     display: flex;
     flex-direction: column;
 }
@@ -119,12 +115,6 @@ footer p {
     font-size: 20px;
     color: #F6F4EA;
     list-style: none;
-}
-
-/* Social media hover icons */
-#social-networks a:hover {
-    color: #fafafa;
-    font-size: 105%;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -163,7 +153,12 @@ footer p {
         height: 42.1px;
     }
 
-    /* Footer*/
+    /* Main */
+    main {
+        margin-top: 50px;
+    }
+
+    /* Footer */
     #social-container {
         display: flex;
         align-items: center;
@@ -180,6 +175,13 @@ footer p {
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
+    /* Header */
+    
+    /* Nav hover icons */
+    nav li:hover {
+        font-weight: 500;
+    }
+
     /* Footer */
     #social-networks>li {
         font-size: 12.5px;
@@ -189,5 +191,10 @@ footer p {
 
     footer p {
         font-size: 10px;
+    }
 
+    /* Social media hover icons */
+    #social-networks a:hover {
+        color: #fafafa;
+        font-size: 105%;
     }
