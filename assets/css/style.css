@@ -93,6 +93,14 @@ main {
     flex-direction: column;
 }
 
+/* Hero Image */
+
+#hero {
+    height: 665px;
+    width: 100%;
+    background: url("../images/hero_image.jpg") no-repeat center center/cover;
+}
+
 /* Footer */
 footer {
     background-color: #1C3C44;
@@ -157,7 +165,7 @@ footer p {
 
     /* Main */
     main {
-        margin-top: 56px;
+        margin-top: 53px;
     }
 
     /* Footer */
@@ -180,6 +188,11 @@ footer p {
     /* Header */
     nav li {
         font-size: 14px;
+    }
+
+    /* Main */
+    main {
+        margin-top: 48px;
     }
 
     /* Nav hover icons */
