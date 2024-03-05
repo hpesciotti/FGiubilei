@@ -76,10 +76,11 @@ nav {
 
 .nav-toggle-label {
     font-size: 250%;
+    padding-right: 0.15em;
 }
 
 header img {
-    padding-left: 0.35em;
+    padding-left: 0.45em;
 }
 
 /* Main Content */
