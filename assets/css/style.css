@@ -144,27 +144,61 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #1C3C44;
-    margin: 1em 1em;
+    background-color: #161513;
     border-radius: 1em 1em;
+    padding: 1em 1em;
+    margin: 1em 1em;
 }
 
 #about-image {
-    padding: 1em 1em;
     align-items: center;
     width: 50vw;
     height: auto;
+    border-radius: 50%;
 }
 
-#about-text-box {
+.about-text-box {
     height: 85%;
     width: 85%;
-    padding: 0.3em  0.3em 1em;
 }
 
 #about-text {
     padding: 2px 2px;
     text-align: justify;
+    padding: 0.3em 0.3em 0.5em
+}
+
+/* Partners */
+#partners {
+    background:url("../images/rain-light-glass.jpg") no-repeat center center/cover;;
+    border-radius: 1em 1em;
+    padding: 1em 1em;
+    margin: 1em 1em;
+}
+
+#logo-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em
+}
+
+#logo-image {
+    align-items: center;
+    width: 25vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+#partners h2 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    size: 18px;
+    padding: 0.3em 0.3em 0.5em
 }
 
 /* Footer */
@@ -234,7 +268,40 @@ footer p {
         margin-top: 53px;
     }
 
-    /* Hero Image */
+    /* About Section */
+    #about-container {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.4em;
+    }
+
+    #about-image {
+        padding: 1em 0 0;
+        align-items: center;
+        width: 30vw;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    #about-text-box {
+        height: 85%;
+        width: 85%;
+        padding: 0.3em 0.3em 1em;
+    }
+
+    #about-text {
+        padding: 0.5em 0.5em;
+        text-align: justify;
+    }
+
+    /* Partners */
+    #partners {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.4em;
+    }
+
+       /* Hero Image */
     #cover-text {
         width: 185px;
         top: 300px;
@@ -313,6 +380,15 @@ footer p {
         padding: 10px 10px;
         color: #1C3C44;
         text-align: center;
+    }
+
+    /* About */
+    #about-image {
+        padding: 1em 0 0;
+        align-items: center;
+        width: 15vw;
+        height: auto;
+        border-radius: 50%;
     }
 
     /* Nav hover icons */
