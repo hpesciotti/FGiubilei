@@ -292,16 +292,27 @@ footer p {
     #about-text {
         padding: 0.5em 0.5em;
         text-align: justify;
+        font-size: 18px;
     }
 
     /* Partners */
-    #partners {
-        flex-direction: row;
+       
+    #logo-image {
         align-items: center;
-        gap: 0.4em;
+        width: 15vw;
+        height: auto;
+        border-radius: 50%;
+    }
+    
+    #partners h2 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        size: 18px;
+        padding: 0.3em 0.3em 0.5em
     }
 
-       /* Hero Image */
+    /* Hero Image */
     #cover-text {
         width: 185px;
         top: 300px;
@@ -383,14 +394,44 @@ footer p {
     }
 
     /* About */
+    #about-container {
+        flex-wrap: nowrap;
+        margin: 5% 12.5% 7.5%;
+        gap: 1em;
+    }
+
     #about-image {
-        padding: 1em 0 0;
+        width: 14vw;
+    }
+    
+    #about-text {
+        size: 18px;
+    }
+
+    /* Partners */  
+    #partners {
+        border-radius: 0;
+        margin: 0 0 0;
+    }  
+    #logo-image {
         align-items: center;
-        width: 15vw;
+        width: 5vw;
         height: auto;
         border-radius: 50%;
     }
-
+    
+    #partners h2 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        size: 18px;
+        padding: 0.3em 0.3em 0.5em
+    }
+    
+    #logo-image:hover {
+        width: 5.2vw;
+    }
+    
     /* Nav hover icons */
     nav li:hover {
         font-weight: 500;
