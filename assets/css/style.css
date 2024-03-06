@@ -112,6 +112,33 @@ main {
     padding: 0.5em 0.5em;
 }
 
+/* Polaroid Section */
+#polaroid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#polaroid img {
+    width: 85vw;
+    border-radius: 1em 1em 0 0;
+    height: auto;
+}
+
+#polaroid {
+    height: 85%;
+    width: 85%;
+    margin: 1em 1em;
+    background-color: #fafafa;
+    border-radius: 1em 1em;
+}
+
+#caption {
+    padding: 10px 10px;
+    color: #1C3C44;
+    text-align: center;
+}
+
 /* Footer */
 footer {
     background-color: #1C3C44;
@@ -136,33 +163,6 @@ footer p {
     font-size: 30px;
     color: #F6F4EA;
     list-style: none;
-}
-
-/* Polaroid Section */
-#polaroid-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-#polaroid img {
-    width: 85vw;
-    border-radius: 1em 1em 0 0;
-    height: auto;
-}
-
-#polaroid {
-    height: 85%;
-    width: 85%;
-    margin: 1em 1em;
-    background-color: #fafafa;
-    border-radius: 1em 1em;
-   }
-
-#caption {
-    padding: 10px 10px;
-    color: #1C3C44;
-    text-align: center;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -216,7 +216,8 @@ align-items: center;
 
     /* Polaroid Section */
     #caption {
-        font-size: 1.6em;
+        font-size: 1.1em;
+        font-weight: bold;
     }
 
     /* Footer */
@@ -258,6 +259,34 @@ align-items: center;
         bottom: 350px;
     }
 
+    /* Polaroid */
+    #polaroid-container {
+        padding: 1em 1em;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+
+    #polaroid img {
+        width: 30vw;
+        border-radius: 1em 1em 0 0;
+        height: auto;
+    }
+
+    #polaroid {
+        height: auto;
+        width: 30vw;
+        margin: 1em 1em;
+        background-color: #fafafa;
+        border-radius: 1em 1em;
+    }
+
+    #caption {
+        padding: 10px 10px;
+        color: #1C3C44;
+        text-align: center;
+    }
+
     /* Nav hover icons */
     nav li:hover {
         font-weight: 500;
@@ -279,3 +308,4 @@ align-items: center;
         color: #fafafa;
         font-size: 105%;
     }
+}
