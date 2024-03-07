@@ -34,7 +34,7 @@ header {
     position: fixed;
     z-index: 5;
     width: 100%;
-    box-shadow: 0 1px 1px #334C54;
+    box-shadow: 0 2px 2px #334C54;
     background: rgb(34, 138, 255);
     background: linear-gradient(73deg, rgba(34, 138, 255, 1) 5%, rgba(58, 56, 217, 1) 98%);
 }
@@ -48,6 +48,7 @@ nav li {
     letter-spacing: 2px;
     margin-bottom: 1em;
     margin-top: 1em;
+    transition: all 0.3s;
 }
 
 .nav-selected {
@@ -85,7 +86,7 @@ header img {
 
 /* Main Content */
 main {
-    background-color: #F6F4EA;
+    background-color: #fafafa;
     /* Make the main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 58px;
@@ -113,29 +114,29 @@ main {
 }
 
 /* Polaroid Section */
-#polaroid-container {
+.polaroid-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#polaroid img {
+.polaroid img {
     width: 85vw;
     border-radius: 1em 1em 0 0;
     height: auto;
 }
 
-#polaroid {
+.polaroid {
     height: 85%;
     width: 85%;
     margin: 1em 1em;
-    background-color: #fafafa;
+    background-color:#1C3C44;
     border-radius: 1em 1em;
 }
 
-#caption {
+.caption {
     padding: 10px 10px;
-    color: #1C3C44;
+    color: #F6F4EA;
     text-align: center;
 }
 
@@ -157,12 +158,12 @@ main {
     border-radius: 50%;
 }
 
-.about-text-box {
+#about-text-box {
     height: 85%;
     width: 85%;
 }
 
-#about-text {
+.about-text {
     padding: 2px 2px;
     text-align: justify;
     padding: 0.3em 0.3em 0.5em
@@ -186,7 +187,7 @@ main {
     gap: 2em
 }
 
-#logo-image {
+.logo-image {
     align-items: center;
     width: 25vw;
     height: auto;
@@ -289,7 +290,7 @@ footer p {
         padding: 0.3em 0.3em 1em;
     }
 
-    #about-text {
+   .about-text {
         padding: 0.5em 0.5em;
         text-align: justify;
         font-size: 18px;
@@ -297,7 +298,7 @@ footer p {
 
     /* Partners */
        
-    #logo-image {
+    .logo-image {
         align-items: center;
         width: 15vw;
         height: auto;
@@ -321,7 +322,7 @@ footer p {
     }
 
     /* Polaroid Section */
-    #caption {
+    .caption {
         font-size: 1.1em;
         font-weight: bold;
     }
@@ -366,30 +367,34 @@ footer p {
     }
 
     /* Polaroid */
-    #polaroid-container {
+    .polaroid-container {
         padding: 1em 1em;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: baseline;
     }
 
-    #polaroid img {
+    .polaroid img {
         width: 30vw;
         border-radius: 1em 1em 0 0;
         height: auto;
+        transition: all 0.3s;
     }
 
-    #polaroid {
+    .polaroid {
         height: auto;
         width: 30vw;
         margin: 1em 1em;
-        background-color: #fafafa;
         border-radius: 1em 1em;
     }
 
-    #caption {
+    .polaroid:hover {
+        transform: scale(1.02);
+        box-shadow: 0 6px 6px rgb(25,25,25,0.7);
+    }
+
+    .caption {
         padding: 10px 10px;
-        color: #1C3C44;
         text-align: center;
     }
 
@@ -404,7 +409,7 @@ footer p {
         width: 14vw;
     }
     
-    #about-text {
+    .about-text {
         size: 18px;
     }
 
@@ -412,8 +417,10 @@ footer p {
     #partners {
         border-radius: 0;
         margin: 0 0 0;
+        flex-grow: 1;
     }  
-    #logo-image {
+
+    .logo-image {
         align-items: center;
         width: 5vw;
         height: auto;
@@ -429,31 +436,31 @@ footer p {
         padding: 0.3em 0.3em 0.5em
     }
     
-    #logo-image:hover {
-        /* width: 5.2vw; */
+    .logo-image:hover {
         transform: scale(1.1);
-        box-shadow: 0 6px 6px rgb(255,255,0.7);
+        box-shadow: 0 6px 6px rgba(25,25,25,0.7);
     }
     
     /* Nav hover icons */
     nav li:hover {
-        font-weight: 500;
+        transform: scale(1.05);
     }
 
     /* Footer */
     #social-networks>li {
-        font-size: 16px;
+        font-size: 20px;
         color: #F6F4EA;
         list-style: none;
     }
 
     footer p {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     /* Social media hover icons */
+    /* Transform function does not work with font awesome */
     #social-networks a:hover {
         color: #fafafa;
-        transform: scale(2);
+        font-size: 125%;
     }
 }
