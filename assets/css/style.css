@@ -316,8 +316,8 @@ footer p {
     #cover-text {
         width: 185px;
         top: 300px;
-        right: 50px;
-        bottom: 670px;
+        right: 8%;
+        bottom: auto;
     }
 
     /* Polaroid Section */
@@ -362,7 +362,7 @@ footer p {
         width: 200px;
         top: 300px;
         right: 250px;
-        bottom: 350px;
+        bottom: auto;
     }
 
     /* Polaroid */
@@ -418,6 +418,7 @@ footer p {
         width: 5vw;
         height: auto;
         border-radius: 50%;
+        transition: all 0.3s;
     }
     
     #partners h2 {
@@ -429,7 +430,9 @@ footer p {
     }
     
     #logo-image:hover {
-        width: 5.2vw;
+        /* width: 5.2vw; */
+        transform: scale(1.1);
+        box-shadow: 0 6px 6px rgb(255,255,0.7);
     }
     
     /* Nav hover icons */
@@ -451,6 +454,6 @@ footer p {
     /* Social media hover icons */
     #social-networks a:hover {
         color: #fafafa;
-        font-size: 105%;
+        transform: scale(2);
     }
 }
