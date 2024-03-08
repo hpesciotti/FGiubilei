@@ -131,7 +131,7 @@ main {
     height: 85%;
     width: 85%;
     margin: 1em 1em;
-    background-color: #1C3C44;
+    background-color: #45496D;
     border-radius: 1em 1em;
 }
 
@@ -231,7 +231,7 @@ main {
     height: auto;
     width: 80vw;
     margin: 1em 1em;
-    background-color: #1C3C44;
+    background-color: #45496D;
     border-radius: 0.6em 0.6em;
 }
 
@@ -249,7 +249,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #1C3C44;
+    background-color: #45496D;
     width: 100%;
     padding: 5px;
     display: flex;
@@ -506,12 +506,12 @@ footer p {
         height: auto;
         width: 40vw;
         margin: 1em 1em;
-        background-color: #1C3C44;
+        background-color: #45496D;
         border-radius: 0.6em 0.6em;
     }
 
     .video-frame h2 {
-        font-size: 80%;
+        font-size: 20px;
         text-align: center;
         padding: 0.3em 0.3em;
     }
