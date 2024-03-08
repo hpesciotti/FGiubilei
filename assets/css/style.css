@@ -23,7 +23,6 @@ body {
     flex-direction: column;
 }
 
-
 /* Header */
 header {
     display: flex;
@@ -210,7 +209,6 @@ main {
 }
 
 /* Gallery */
-
 /* Gallery Videos */
 #video-container {
     margin: 1em;
@@ -219,12 +217,6 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 1em;
-}
-
-.polaroid img {
-    width: 85vw;
-    border-radius: 1em 1em 0 0;
-    height: auto;
 }
 
 .video-frame {
@@ -245,7 +237,6 @@ main {
     width: 80vw;
     border-radius: 0.6em 0.6em 0 0;
 }
-
 
 /* Footer */
 footer {
@@ -346,7 +337,6 @@ footer p {
     }
 
     /* Partners */
-
     .logo-image {
         align-items: center;
         width: 15vw;
