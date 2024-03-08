@@ -35,8 +35,8 @@ header {
     z-index: 5;
     width: 100%;
     box-shadow: 0 2px 2px #334C54;
-    background: rgb(34, 138, 255);
-    background: linear-gradient(73deg, rgba(34, 138, 255, 1) 5%, rgba(58, 56, 217, 1) 98%);
+    background: rgb(30,29,115);
+    background: linear-gradient(73deg, rgba(30,29,115,1) 5%, rgba(58,56,217,1) 98%);
 }
 
 nav li {
@@ -282,8 +282,8 @@ footer p {
 
     /* Header */
     header {
-        background: rgb(34, 138, 255);
-        background: linear-gradient(90deg, rgba(34, 138, 255, 1) 0%, rgba(58, 56, 217, 1) 26%, rgba(127, 20, 240, 1) 100%);
+        background: rgb(30,29,115);
+        background: linear-gradient(90deg, rgba(30,29,115,1) 0%, rgba(127,20,240,1) 50%, rgba(34,138,255,1) 100%);;
     }
 
     nav {
