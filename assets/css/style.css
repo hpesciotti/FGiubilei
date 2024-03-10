@@ -94,7 +94,7 @@ main {
 
 /* Hero Image */
 #hero {
-    height: 665px;
+    height: 55em;
     width: 100%;
     background: url("../images/hero_image.jpg") no-repeat center center/cover;
 }
@@ -323,6 +323,19 @@ footer p {
     font-size: 30px;
     color: #F6F4EA;
     list-style: none;
+}
+
+/* Media query: Small screen devices (<309x) */
+@media screen and (max-width: 309px) {
+/* Contact */
+.contact-button {
+    background-color: #45496d;
+    font-size: 0.65em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin-right: 0em;
+    margin-left: 0em;
+}
 }
 
 /* Media query: tablets and larger (768px and up) */
