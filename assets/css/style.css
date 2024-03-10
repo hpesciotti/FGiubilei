@@ -17,7 +17,6 @@ body {
     /*Generic font */
     Color: #fafafa;
     font-family: 'Inter', sans-serif;
-    /* font-size: 8px; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -34,8 +33,8 @@ header {
     z-index: 5;
     width: 100%;
     box-shadow: 0 2px 2px #334C54;
-    background: rgb(30,29,115);
-    background: linear-gradient(73deg, rgba(30,29,115,1) 5%, rgba(58,56,217,1) 98%);
+    background: rgb(30, 29, 115);
+    background: linear-gradient(73deg, rgba(30, 29, 115, 1) 5%, rgba(58, 56, 217, 1) 98%);
 }
 
 nav li {
@@ -239,14 +238,23 @@ main {
 }
 
 /* Contact */
+#form-background {
+    display: flex;
+    background: url("../images/get-in-touch.jpg");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0
+}
 
 #form-container {
-    margin: auto 1em;
-    background-color: rgba(60, 60, 60, 0.6);
+    width: 80%;
+    margin: 0.5em 1em;
+    align-self: center;
+    background-color: rgba(69, 73, 109, 0.8);
     border-radius: 1em 1em;
     padding: 1em 1em;
-    font-size: 105%;
-    gap: 0.3;
     font-size: 1.3em
 }
 
@@ -257,30 +265,34 @@ main {
 
 .form-single {
     background-color: white;
-    color:#161513;
+    color: #161513;
     width: 100%;
     height: 2em;
     margin: 0.5em 0;
     padding: 0.25em 0.5em;
     border-radius: 0.5em;
+    font-size: 16px;
 }
 
 .form-box {
     background-color: white;
-    color:#161513;
+    color: #161513;
     width: 100%;
-    height: 12em;
+    height: 7em;
     margin: 0.5em 0;
     border-radius: 0.5em;
     padding: 0.25em 0.5em;
-    text-align: justify start;
+    font: inherit;
+    font-size: 16px;
 }
 
 .contact-button {
     background-color: #45496d;
-    font-size: 0.7em;
+    font-size: 0.9em;
     padding: 0.5em;
     border-radius: 0.5em;
+    margin-right: 0.5em;
+    margin-left: 1em;
 }
 
 /* Footer */
@@ -318,8 +330,9 @@ footer p {
 
     /* Header */
     header {
-        background: rgb(30,29,115);
-        background: linear-gradient(90deg, rgba(30,29,115,1) 0%, rgba(127,20,240,1) 50%, rgba(34,138,255,1) 100%);;
+        background: rgb(30, 29, 115);
+        background: linear-gradient(90deg, rgba(30, 29, 115, 1) 0%, rgba(127, 20, 240, 1) 50%, rgba(34, 138, 255, 1) 100%);
+        ;
     }
 
     nav {
@@ -409,6 +422,27 @@ footer p {
     .caption {
         font-size: 1.1em;
         font-weight: bold;
+    }
+
+    /* Contact */
+    #form-container {
+        margin: 1em 1em;
+        width: 75%;
+        font-size: 1.3em
+    }
+
+    #form-container h3 {
+        padding: 0 0 0.3em;
+        text-align: center;
+    }
+
+    .form-single {
+        font-size: 0.85em;
+    }
+
+    .form-box {
+        height: 12em;
+        font-size: 0.85em;
     }
 
     /* Footer */
@@ -557,6 +591,17 @@ footer p {
         border-radius: 0.6em 0.6em 0 0;
     }
 
+    /* Contact */
+    #form-background {
+        justify-content: left;
+    }
+
+    #form-container {
+        width: 25%;
+        margin-left: 10em;
+        align-self: center;
+    }
+    
     /* Nav hover icons */
     nav li:hover {
         transform: scale(1.05);
