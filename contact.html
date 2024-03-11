@@ -24,7 +24,7 @@
     <!-- Header -->
     <header>
         <a href="index.html">
-            <img src="assets/images/logo.png" alt="website logo" width="168.75" height="51.30">
+            <img src="assets/images/logo.png" alt="website logo" width="169" height="51">
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
@@ -41,21 +41,22 @@
     <!-- Main Content -->
     <main>
         <div id="form-background">
-        <div id="form-container">
-            <h3>Get in Touch!</h3>
-            <form action="https://formsubmit.co/5704b3c0f00f7b70781c4a6e30ca2640" method="POST">
-                <label for="name">Name:</label><br>
-                <input type="text" class="form-single" name="name" placeholder="Your Name" required><br>
-                <label for="subject">Subject:</label><br>
-                <input type="text" class="form-single" name="subject" placeholder="Subject" required><br>
-                <label for="email">E-mail:</label><br>
-                <input type="email" class="form-single" name="email" placeholder="email@example.com" required><br>
-                <label for="message">Message:</label><br>
-                <textarea type="text" class="form-box" name="message" size="500"
-                    placeholder="Book a session or just leave a comment!" required></textarea><br>
-                <input type="submit" class="contact-button" value="Send!">
-                <input type="reset" class="contact-button" value="Reset">
-            </form>
+            <div id="form-container">
+                <h3>Get in Touch!</h3>
+                <form action="https://formsubmit.co/5704b3c0f00f7b70781c4a6e30ca2640" method="POST">
+                    <label for="full-name">Name:</label><br>
+                    <input type="text" class="form-single" name="full-name" placeholder="Your Name" required><br>
+                    <label for="contact-subject">Subject:</label><br>
+                    <input type="text" class="form-single" name="contact-subject" placeholder="Subject" required><br>
+                    <label for="personal-email">E-mail:</label><br>
+                    <input type="email" class="form-single" name="personal-email" placeholder="email@example.com" required><br>
+                    <label for="your-message">Message:</label><br>
+                    <textarea class="form-box" name="your-message" maxlength="500"
+                        placeholder="Book a session or just leave a comment!" required></textarea><br>
+                    <input type="submit" class="contact-button" value="Send!">
+                    <input type="reset" class="contact-button" value="Reset">
+                </form>
+            </div>
         </div>
     </main>
 
@@ -84,7 +85,8 @@
                                 class="fa-brands fa-square-x-twitter"></i></a></li>
                     <li><a href="https://www.youtube.com/@felipegiubilei" target="_blank" rel="noopener"
                             aria-label="visit Felipe's Youtube Channel (opens in a new tab)"><i
-                                class="fa-brands fa-square-youtube"></i></i></a></li>
+                                class="fa-brands fa-square-youtube"></i></a></li>
+                </ul>
             </div>
         </div>
     </footer>
