@@ -235,6 +235,10 @@ main {
     border-radius: 0.6em 0.6em;
 }
 
+.video-frame iframe {
+    border: 0;
+}
+
 .video-frame h2 {
     text-align: center;
     padding: 0.3em 0.3em;
