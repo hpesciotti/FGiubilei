@@ -146,16 +146,22 @@ main {
 
 /* About Section */
 #about-container {
+    background: linear-gradient(73deg, rgba(30, 29, 115, 1) 5%, rgba(58, 56, 217, 1) 98%);
+    border-radius: 0.5em 0.5em;
+    padding: 0.35em 0.35em;
+    margin: 0.5em 0.5em;
+}
+
+#about-background {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(60, 60, 60, 0.6);
-    border-radius: 1em 1em;
-    padding: 1em 1em;
-    margin: 1em 1em;
+    background-color: white;
+    border-radius: 0.5em 0.5em;
 }
 
 #about-image {
+    padding: 1em;
     align-items: center;
     width: 50vw;
     height: auto;
@@ -165,6 +171,7 @@ main {
 #about-text-box {
     height: 85%;
     width: 85%;
+    color: #45496D
 }
 
 .about-text {
@@ -340,15 +347,16 @@ footer p {
 
 /* Media query: Small screen devices (<309x) */
 @media screen and (max-width: 309px) {
-/* Contact */
-.contact-button {
-    background-color: #45496d;
-    font-size: 0.65em;
-    padding: 0.5em;
-    border-radius: 0.5em;
-    margin-right: 0em;
-    margin-left: 0em;
-}
+
+    /* Contact */
+    .contact-button {
+        background-color: #45496d;
+        font-size: 0.65em;
+        padding: 0.5em;
+        border-radius: 0.5em;
+        margin-right: 0em;
+        margin-left: 0em;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -395,13 +403,17 @@ footer p {
 
     /* About Section */
     #about-container {
+        margin: 2em 0.5em;
+    }
+
+    #about-background {
         flex-direction: row;
         align-items: center;
-        gap: 0.4em;
+        gap: 0.5em;
     }
 
     #about-image {
-        padding: 1em 0 0;
+        padding: 1em 0 0 1em;
         align-items: center;
         width: 30vw;
         height: auto;
@@ -553,6 +565,18 @@ footer p {
         flex-wrap: nowrap;
         margin: 5% 12.5% 7.5%;
         gap: 1em;
+        width: 55%;
+        align-self: center;
+    }
+
+    #about-background {
+        width: 100%;
+    }
+
+    #about-text-box {
+        align-items: center;
+        width: 70%;
+        padding: 0.3em 0.3em 1em;
     }
 
     #about-image {
@@ -561,6 +585,7 @@ footer p {
 
     .about-text {
         size: 18px;
+        line-height: 1.6;
     }
 
     /* Partners */
@@ -638,7 +663,7 @@ footer p {
         margin-left: 10em;
         align-self: center;
     }
-    
+
     /* Nav hover icons */
     nav li:hover {
         transform: scale(1.05);
