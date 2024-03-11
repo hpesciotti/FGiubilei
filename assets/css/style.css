@@ -210,7 +210,7 @@ main {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    size: 18px;
+    font-size: 18px;
     padding: 0.3em 0.3em 0.5em
 }
 
@@ -444,7 +444,7 @@ footer p {
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        size: 18px;
+        font-size: 18px;
         padding: 0.3em 0.3em 0.5em
     }
 
@@ -584,7 +584,7 @@ footer p {
     }
 
     .about-text {
-        size: 18px;
+        font-size: 18px;
         line-height: 1.6;
     }
 
@@ -607,7 +607,7 @@ footer p {
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 0.1em;
-        size: 18px;
+        font-size: 18px;
         padding: 0.3em 0.3em 0.5em
     }
 
