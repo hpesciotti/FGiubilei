@@ -208,6 +208,15 @@ main {
 }
 
 /* Gallery */
+.photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+.photos {
+    line-height: 0;
+}
+
 /* Gallery Videos */
 #video-container {
     margin: 1em;
@@ -458,6 +467,12 @@ footer p {
         font-size: 0.85em;
     }
 
+    /* Gallery */
+    .photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
     /* Footer */
     #social-container {
         display: flex;
@@ -573,6 +588,11 @@ footer p {
     }
 
     /* Gallery */
+    .photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
     /* Gallery Videos */
     #video-container {
         margin: 1.2em 2em 1em;
