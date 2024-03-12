@@ -96,7 +96,7 @@ main {
 #hero {
     height: 55em;
     width: 100%;
-    background: url("../images/hero_image.jpg") no-repeat center center/cover;
+    background: url("../images/hero_image.webp") no-repeat center center/cover;
 }
 
 #cover-text {
@@ -182,8 +182,7 @@ main {
 
 /* Partners */
 #partners {
-    background: url("../images/rain-light-glass.jpg") no-repeat center center/cover;
-    ;
+    background: url("../images/rain-light-glass.webp") no-repeat center center/cover;
     border-radius: 1em 1em;
     padding: 1em 1em;
     margin: 1em 1em;
@@ -260,7 +259,7 @@ main {
 /* Contact */
 #form-background {
     display: flex;
-    background: url("../images/get-in-touch.jpg");
+    background: url("../images/get-in-touch.webp");
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
