@@ -256,6 +256,37 @@ main {
     border-radius: 0.6em 0.6em 0 0;
 }
 
+/* Error 404 */
+#error-404-background {
+    display: flex;
+    background: url("../images/error_404.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0
+}
+
+#error-404-text {
+    font-size: 85%;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+#error-button {
+    background-color: #45496d;
+    color: white;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    margin-left: 1em;
+}
+
 /* Contact */
 #form-background {
     display: flex;
@@ -486,6 +517,15 @@ footer span {
     .photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    /* Error 404 */
+    #error-404-text {
+        font-size: 120%;
+    }
+
+    #error-button {
+        font-size: 1.4em;
     }
 
     /* Footer */
