@@ -1,6 +1,6 @@
 # Felipe Giubilei Photography
 
-!Felipe Giubilei Photography's website displayed on various devices](docs/documentation/am-i-responsive-fgiubilei.png)
+![Felipe Giubilei Photography's website displayed on various devices](docs/documentation/am-i-responsive-fgiubilei.png)
 
 [Visit my website here](https://hpesciotti.github.io/FGiubilei/index.html)
 
