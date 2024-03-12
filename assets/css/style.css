@@ -579,7 +579,6 @@ footer span {
         width: 30vw;
         border-radius: 1em 1em 0 0;
         height: auto;
-        transition: all 0.3s;
     }
 
     .polaroid {
@@ -587,6 +586,7 @@ footer span {
         width: 30vw;
         margin: 1em 1em;
         border-radius: 1em 1em;
+        transition: all 0.3s;
     }
 
     .polaroid:hover {
