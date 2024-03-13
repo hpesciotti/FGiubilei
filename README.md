@@ -152,6 +152,8 @@ I employed three different fonts for the website design. The logo features the B
 
 ### **3.1-Existing Features**
 
+### **Index/Home Page**
+
 #### **Navigation Bar**
 
 ![Nav Bar](docs/documentation/nav-bar-desktop-tablet.png)
@@ -185,5 +187,16 @@ I accomplished this design based on the Love Running Project.
 
 - There's also a "call to action" box that quickly informs the user of the website's main goal. This element was a source of a couple of errors due to its responsivity. The box was bleeding the Hero Section on smaller screens, which prompted me to change the hero image to a relative measure. In this case, I've used "em" metric for the length of the hero image.
 
+#### **Polaroid Section**
 
+![Polaroid Section](docs/documentation/polaroid-section.png)
 
+- The Polaroid section was designed when drawing up the wireframes. This element provides the user with information about the photographer's capabilities and professional background, as well as where he's based, via image and text. 
+
+- The [Coders' Guidebook website](https://codersguidebook.com/how-to-build-a-website/how-to-add-polaroid-images-to-a-website) inspired this section. 
+
+- In the mobile version, the Polaroid boxes stack up, taking up a large part of the device's width. The tablet version, depending on the screen's width, resembles either the desktop version or the mobile version.
+
+![Polaroid Mobile and Tablet](docs/documentation/polaroid-section-mobile.png)
+
+- I added box-shadow and hover transform scale on large screens for better user interactivity.
