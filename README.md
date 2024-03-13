@@ -126,6 +126,8 @@ Concerts,
 
 #### **Colour Scheme**
 
+The colour scheme is inspired by tones of violet, indigo, and spotlights, as seen in the selected pictures. This theme is currently popular in software development, and it can be seen in the Microsoft 365 icon, Microsoft Clipchamp and [ESRI Ireland's website](https://www.esri-ireland.ie/en-ie/homehttps://www.esri-ireland.ie/en-ie/home), which heavily weighted on the chosen appearance of my website's nav bar. The colour scheme also matches the background hues of the hero-image.
+
 #### **Typography**
 
 I employed three different fonts for the website design. The logo features the Bauhaus 93 font, which is not included in the style.css file as it was utilized in another software to create the logo image. The other two fonts, Inter and Rubik, are sourced from Google Fonts. Rubik font is applied to the navigation bar, while Inter is used in the rest of the website's sections, such as textual elements.
