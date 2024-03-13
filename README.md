@@ -66,7 +66,7 @@ Therefore, I thought about the work of my dear cousin Felipe Giubilei, an accomp
 
 ## **2.UX Design**
 
-### **i.Strategy Plane**
+### **i.Strategy**
 
 While researching other photographers' websites, I noticed they were very minimalistic in design, with few text sections and mainly focusing on the photos. The artistic appeal was high, but the page layout structure was sometimes unorthodox. Another thing I noticed is that, in general, there are two types of photographer websites: some more artistic, which belong to award-winning professionals, and the more user friendly ones, with more recognizable sections, sucha as contact details, which belong to freelance professionals specialized in wedding photoshoots. 
 
@@ -74,31 +74,60 @@ I intended to blend those styles, striking a balance between something artistic 
 
 Some of the photographer's pages I researched were selected by [Webcitz](https://www.webcitz.com/blog/50-best-photographer-websites/) as the best 50 photographers websites.
 
-#### Artistic Unorthodox Websites
+#### **Artistic Unorthodox Websites**
 - [David William Baum](https://www.davidwilliambaum.com/)
 - [Levon Biss](https://levonbiss.com/)
 - [Giles Clement](https://www.gilesclement.com/)
 
-#### More User Friendly Websites
+#### **More User Friendly Websites**
 - [Greg Ross](https://www.gregoryrossblog.com/)
 - [Kristen Hazelton](https://kristenhazelton.com/)
 - [WeShootFood](https://www.weshootfood.net/)
 
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
 ### **ii.User Stories**
 
+#### **First Time Visitor Goals**
 -   I want to acquaint myself with the photographer's portfolio.
 -   I want to understand the types of photoshoots the photographer can undertake.
 -   I want to quickly find what I'm looking for, without extensive reading or following numerous links.
+
+#### **Returning Visitor Goals**
 -   I want to learn about the photographer's qualifications.
 -   I want to discover how to contact the photographer.
--	I want to book a session with the photographer.
+-   I want to easily find social media links.
 
-[Back to top](https://github.com/hpesciotti/FGiubilei/#felipe-giubilei-photography)
+#### **Frequent User Goals**
+-   I want to book a session with the photographer.
+-   I want to see new additions to the portfolio.
 
-### **iii.Wireframe**
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-[Back to top](https://github.com/hpesciotti/FGiubilei/#felipe-giubilei-photography)
+### **Wireframes**
+
+## **PC Version**
+
+## **Mobile Version**
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ### **iv.Design**
 
-[Back to top](https://github.com/hpesciotti/FGiubilei/#felipe-giubilei-photography)
+#### **Imagery**
+
+I used authorial photos, so I had to select images from the photographer's portfolio. As selecting criteria, I wanted images to elucidate his capabilities and versatility. I ended up grouping the pictures into six types, which subsequently became the sections inside the gallery page, those are: 
+Concerts,
+-   Family Moments,
+-   Solo Photoshoots,
+-   Institutional Events,
+-   Urban Photography, and,
+-   Weddings.
+
+#### **Colour Scheme**
+
+#### **Typography**
+
+I employed three different fonts for the website design. The logo features the Bauhaus 93 font, which is not included in the style.css file as it was utilized in another software to create the logo image. The other two fonts, Inter and Rubik, are sourced from Google Fonts. Rubik font is applied to the navigation bar, while Inter is used in the rest of the website's sections, such as textual elements.
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
