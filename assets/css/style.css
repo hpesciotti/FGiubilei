@@ -754,12 +754,6 @@ footer span {
     /* Contact */
         #form-container {
         width: 20em;
-        margin-left: 4 em;
-        align-self: center;
-    }
-
-    /* Nav hover icons */
-    nav li:hover {
-        transform: scale(1.05);
+        margin-left: 4em;
     }
 }
