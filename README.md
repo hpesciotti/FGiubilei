@@ -106,9 +106,9 @@ Some of the photographer's pages I researched were selected by [Webcitz](https:/
 
 ### **Wireframes**
 
-## **PC Version**
+#### **PC Version**
 
-## **Mobile Version**
+#### **Mobile Version**
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
@@ -129,6 +129,8 @@ Concerts,
 The colour scheme is inspired by tones of violet, indigo, and spotlights, as seen in the selected pictures. This theme is currently popular in software development, and it can be seen in the Microsoft 365 icon, Microsoft Clipchamp and [ESRI Ireland's website](https://www.esri-ireland.ie/en-ie/homehttps://www.esri-ireland.ie/en-ie/home), which heavily weighted on the chosen appearance of my website's nav bar. The colour scheme also matches the background hues of the [hero-image](docs/documentation/hero-image.png).
 
 ![Colour Scheme](docs/documentation/colour-scheme.png)
+
+The selection of text and background took into consideration the contrast ratio of at least Level AA. [EightShape contrast grid](docs/documentation/contrast-grid.png) is present in the documentation. 
 
 #### **Typography**
 
