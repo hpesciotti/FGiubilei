@@ -558,7 +558,6 @@ footer span {
 
 }
 
-
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
@@ -716,7 +715,7 @@ footer span {
 
     #form-container {
         width: 25%;
-        margin-left: 3em;
+        margin-left: 4em;
         align-self: center;
     }
 
@@ -743,13 +742,14 @@ footer span {
         font-size: 125%;
     }
 
+}
 /* Media query: larger screen (1024px and up) */
 @media screen and (min-width: 1024px) {
 
     /* Contact */
         #form-container {
         width: 20em;
-        margin-left: 5em;
+        margin-left: 4 em;
         align-self: center;
     }
 
@@ -757,6 +757,4 @@ footer span {
     nav li:hover {
         transform: scale(1.05);
     }
-
-
 }
