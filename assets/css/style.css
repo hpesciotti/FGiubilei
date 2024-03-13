@@ -257,7 +257,7 @@ main {
 }
 
 /* Error 404 */
-#error-404-background {
+.error-404-background {
     display: flex;
     background: url("../images/error_404.webp");
     background-size: cover;
@@ -267,7 +267,7 @@ main {
     padding: 0
 }
 
-#error-404-text {
+.error-404-text {
     font-size: 85%;
     padding: 0.5em;
     display: flex;
@@ -520,7 +520,7 @@ footer span {
     }
 
     /* Error 404 */
-    #error-404-text {
+    .error-404-text {
         font-size: 120%;
     }
 
