@@ -68,12 +68,22 @@ Therefore, I thought about the work of my dear cousin Felipe Giubilei, an accomp
 
 ### **i.Strategy Plane**
 
-While researching other photographers' websites, I noticed they were very minimalistic in design, with few text sections and mainly focusing on the photos. The artistic appeal was high, but the code/HTML structure sometimes did not follow best practices. For instance, there was no nav bar on the galleries, no hero image, and few functions such as hover or select page.
+While researching other photographers' websites, I noticed they were very minimalistic in design, with few text sections and mainly focusing on the photos. The artistic appeal was high, but the page layout structure was sometimes unorthodox. Another thing I noticed is that, in general, there are two types of photographer websites: some more artistic, which belong to award-winning professionals, and the more user friendly ones, with more recognizable sections, sucha as contact details, which belong to freelance professionals specialized in wedding photoshoots. 
 
-Another thing I noticed is that, in general, there are two types of photographer websites: some more artistic, which belong to award-winning professionals, and the more functional ones, with contact details and sections which belong to freelance professionals who are hired for weddings or photoshoots. 
+I intended to blend those styles, striking a balance between something artistic but also accessible and luring possible clients. I am also looking for a familiar design for the website, and I concluded that we usually connect with photography through Instagram or Flickr. Considering my coding limitations, I looked for design and layout trademarks from those companies to implement on my website.
 
-I planned to blend those styles and create something artistic and functional to attract clients. I am also looking for a familiar design for the website, and I concluded that we usually connect with photography through Instagram or Flickr. Whence, taking into account my coding limitations,  I looked for some design and layout trademarks to implement on my website, 
+Some of the photographer's pages I researched were selected by [Webcitz](https://www.webcitz.com/blog/50-best-photographer-websites/) as the best 50 photographers websites.
 
+#### Artistic Unorthodox Websites
+    - [David William Baum](https://www.davidwilliambaum.com/)
+    - [Levon Biss](https://levonbiss.com/)
+    - [Giles Clement](https://www.gilesclement.com/)
+
+#### More User Friendly Websites
+    - [Greg Ross](https://www.gregoryrossblog.com/)
+    - [Kristen Hazelton](https://kristenhazelton.com/)
+    - [WeShootFood](https://www.weshootfood.net/)
+    
 ### **ii.User Stories**
 
 #### **First-Time Visitor Goal**
