@@ -54,7 +54,7 @@
 9. [Acknowledgements](https://github.com/hpesciotti/FGiubilei/#acknowledgements)
 
 
-## **1.Introduction**
+## **1-Introduction**
 
 Welcome to Felipe Giubilei Photography, the website of a Brazilian audiovisual professional with a diverse portfolio comprising a plethora of photoshoots, from family pictures and renowned rock bands to journalistic images of demonstrations and independent short films. The website is designed as an online portfolio showcasing Felipe's artistic creations and aims to attract potential clients who value a skilled and versatile photographer by displaying his work.  
 
@@ -64,9 +64,9 @@ Therefore, I thought about the work of my dear cousin Felipe Giubilei, an accomp
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-## **2.UX Design**
+## **2-UX Design**
 
-### **i.Strategy**
+### **2.1-Strategy**
 
 While researching other photographers' websites, I noticed they were very minimalistic in design, with few text sections and mainly focusing on the photos. The artistic appeal was high, but the page layout structure was sometimes unorthodox. Another thing I noticed is that, in general, there are two types of photographer websites: some more artistic, which belong to award-winning professionals, and the more user friendly ones, with more recognizable sections, sucha as contact details, which belong to freelance professionals specialized in wedding photoshoots. 
 
@@ -86,7 +86,7 @@ Some of the photographer's pages I researched were selected by [Webcitz](https:/
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-### **ii.User Stories**
+### **2.2-User Stories**
 
 #### **First Time Visitor Goals**
 -   I want to acquaint myself with the photographer's portfolio.
@@ -104,7 +104,7 @@ Some of the photographer's pages I researched were selected by [Webcitz](https:/
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-### **Wireframes**
+### **2.3-Wireframes**
 
 I created the initial website wireframes in MS PowerPoint, which I was most familiar with. At this stage in the project development, I hadn't decided on the colour scheme yet, so I experimented with the design and layout of the main pages/features.
 
@@ -122,12 +122,12 @@ I created the initial website wireframes in MS PowerPoint, which I was most fami
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-### **iv.Design**
+### **2.4-Design**
 
 #### **Imagery**
 
 I used authorial photos, so I had to select images from the photographer's portfolio. As selecting criteria, I wanted images to elucidate his capabilities and versatility. I ended up grouping the pictures into six types, which subsequently became the sections inside the gallery page, those are: 
-Concerts,
+-   Concerts,
 -   Family Moments,
 -   Solo Photoshoots,
 -   Institutional Events,
@@ -147,3 +147,43 @@ The selection of text and background took into consideration the contrast ratio 
 I employed three different fonts for the website design. The logo features the Bauhaus 93 font, which is not included in the style.css file as it was utilized in another software to create the logo image. The other two fonts, Inter and Rubik, are sourced from Google Fonts. Rubik font is applied to the navigation bar, while Inter is used in the rest of the website's sections, such as textual elements.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+## **3-Features**
+
+### **3.1-Existing Features**
+
+#### **Navigation Bar**
+
+![Nav Bar](docs/documentation/nav-bar-desktop-tablet.png)
+
+- The navigation bar features links that allow users to scroll smoothly to any main page sections.
+
+- The mobile version substitutes the links for a toggle menu indicated by stacked bars. The link area is available through a dropdown menu. 
+I accomplished this design based on the Love Running Project.
+
+![Nav Bar](docs/documentation/nav-bar-mobile.png)
+
+![Toggle Menu](docs/documentation/drop-down-menu-mobile.png)
+
+- A hover effect [transform scale](https://www.w3schools.com/cssref/css3_pr_transform.php) was added on the link anchors for the desktop version. This feature was suggested by a friend, Bruno Dias. I was using a transform font-size effect in early iterations.
+
+![Hover transform](docs/documentation/hover-transform.png)
+
+- The navigation bar's background has a degradé effect that changes from a three-colour gradient on the desktop/tablet version to a two-colour gradient on the mobile version. This choice was simply made by aesthetics. I drew inspiration from a degradé background from [ESRI Ireland's website](https://www.esri-ireland.ie/en-ie/homehttps://www.esri-ireland.ie/en-ie/home). The background css querry was obtainded through [CSS Gradient's website](https://cssgradient.io/).
+
+#### **Hero Section**
+
+![Hero Section](docs/documentation/hero-image.png)
+
+- The Hero Section of my website occupies the full width of the screen and is located at the top of the index page. I intended to capture the visitor's attention with a captivating picture that would also match the website's colour scheme. 
+
+- The Hero Section is responsive and maintains the shirtless man dancing at the centre of the page in all size versions of the website. 
+
+![Hero Section Mobile and Tablet](docs/documentation/hero-image-mobile-tablet.png)
+
+- This feature wasn't planned when the wireframes were created, but the spacing and lack of an eye-catching element drove me to add the current Hero Section. I took inspiration for this feature from the Love Running Project.
+
+- There's also a "call to action" box that quickly informs the user of the website's main goal. This element was a source of a couple of errors due to its responsivity. The box was bleeding the Hero Section on smaller screens, which prompted me to change the hero image to a relative measure. In this case, I've used "em" metric for the length of the hero image.
+
+
+
