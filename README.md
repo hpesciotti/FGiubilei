@@ -75,15 +75,17 @@ I intended to blend those styles, striking a balance between something artistic 
 Some of the photographer's pages I researched were selected by [Webcitz](https://www.webcitz.com/blog/50-best-photographer-websites/) as the best 50 photographers websites.
 
 #### Artistic Unorthodox Websites
+
     - [David William Baum](https://www.davidwilliambaum.com/)
     - [Levon Biss](https://levonbiss.com/)
     - [Giles Clement](https://www.gilesclement.com/)
 
 #### More User Friendly Websites
+
     - [Greg Ross](https://www.gregoryrossblog.com/)
     - [Kristen Hazelton](https://kristenhazelton.com/)
     - [WeShootFood](https://www.weshootfood.net/)
-    
+
 ### **ii.User Stories**
 
 #### **First-Time Visitor Goal**
