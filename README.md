@@ -106,9 +106,19 @@ Some of the photographer's pages I researched were selected by [Webcitz](https:/
 
 ### **Wireframes**
 
-#### **PC Version**
+I created the initial website wireframes in MS PowerPoint, which I was most familiar with. At this stage in the project development, I hadn't decided on the colour scheme yet, so I experimented with the design and layout of the main pages/features.
+
+#### **Desktop Version**
+-   [Index](docs/documentation/wireframes-index-pc.png)
+-   [Gallery](docs/documentation/wireframes-gallery-pc.png)
+-   [About](docs/documentation/wireframes-about-pc.png)
+-   [Contact](docs/documentation/wireframes-contact-pc.png)
 
 #### **Mobile Version**
+-   [Index](docs/documentation/wireframes-index-mobile.png)
+-   [Gallery](docs/documentation/wireframes-gallery-mobile.png)
+-   [About](docs/documentation/wireframes-about-mobile.png)
+-   [Contact](docs/documentation/wireframes-contact-mobile.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
