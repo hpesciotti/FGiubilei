@@ -4,10 +4,18 @@
 
 [Visit my website here](https://hpesciotti.github.io/FGiubilei/index.html)
 
+<!-- <div align="center">
+
+![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fshanedoyledev.github.io%2Fspacefruit%2F)
+![GitHub language count](https://img.shields.io/github/languages/count/ShaneDoyleDev/spacefruit)
+![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/ShaneDoyleDev/spacefruit)
+![GitHub repo size](https://img.shields.io/github/repo-size/ShaneDoyleDev/spacefruit)
+
+</div> -->
 
 ## CONTENTS  
 
-1. [Introduction](https://github.com/hpesciotti/FGiubilei/#introduction)
+1. [Introduction](#introduction)
 
 2. [User Experience - UX](https://github.com/hpesciotti/FGiubilei/#ux-design)
 
@@ -48,34 +56,23 @@
 
 ## **1.Introduction**
 
-Welcome to Rainforest Cafe’s website! Located in the heart of London’s Soho district, we’ve brought a little piece of the rainforest to one of the world’s busiest cities. Escape the skyscrapers and relax in our plant-filled cafe, or soak up the sun in our tropical garden. Feast on our naturally delicious treats and feel good for doing good, by dining with a sustainable and fairtrade business.
+Welcome to Felipe Giubilei Photography, the website of a Brazilian audiovisual professional with a diverse portfolio comprising a plethora of photoshoots, from family pictures and renowned rock bands to journalistic images of demonstrations and independent short films. The website is designed as an online portfolio showcasing Felipe's artistic creations and aims to attract potential clients who value a skilled and versatile photographer by displaying his work.  
 
-Rainforest Cafe is a restaurant for diners looking for fresh, healthy and natural food. With plenty of vegetarian, vegan and gluten-free options, finding a place that caters to everyone just got easier!
+On a personal note, in the search for the ideal theme to build my first website, part of PP1, I was still deciding the object of this task. Starting from an actual premise for my first project is more manageable than creating a fictional business. 
 
-Rainforest Cafe's website has been created to serve London's locals and visitors who are looking for fresh, healthy and natural food. It gives diners an idea of what the restaurant is about, including its nature theme, its values and an understanding of where its food comes from. The website also offers full access to its menu, complete with icons for those with strict dietary requirements, a description of the menu item and its price. This helps diners to make an informed choice before visiting Rainforest Cafe. Diners are also able to find contact details and opening hours for the restaurant, and can interact with a map showing the precise location of the restaurant. This leaves little room for error when diners want to get directions to the restaurant, no matter where they are. Finally, a booking option is available, giving diners the opportunity to eliminate the chance of having to wait for a table.
+Therefore, I thought about the work of my dear cousin Felipe Giubilei, an accomplished photographer. To my surprise, his work needs a landing page. Thus, besides having a solid theme for my PP1 with excellent visual appeal given by his photos, I can soon grace him with a fully functional website.
 
-Rainforest Cafe is a fictional business, created by Alice Hillier for the first project in Code Institute’s Diploma in Software Development programme.
-
-[Back to top](https://github.com/hpesciotti/FGiubilei/#felipe-giubilei-photography)
+[Back to top](https://github.com/hpesciotti/FGiubilei/##contents)
 
 ## **2.UX Design**
 
 ### **i.Strategy Plane**
 
-In order to gauge what makes a successful restaurant website, I undertook online research to find common themes, features and layouts. 
-Some of the restaurant websites I researched were:
+While researching other photographers' websites, I noticed they were very minimalistic in design, with few text sections and mainly focusing on the photos. The artistic appeal was high, but the code/HTML structure sometimes did not follow best practices. For instance, there was no nav bar on the galleries, no hero image, and few functions such as hover or select page.
 
-#### **[Las Iguanas](https://www.iguanas.co.uk/)** 
+Another thing I noticed is that, in general, there are two types of photographer websites: some more artistic, which belong to award-winning professionals, and the more functional ones, with contact details and sections which belong to freelance professionals who are hired for weddings or photoshoots. 
 
--	Offers Latin American cuisine
--	Horizontal navbar, with repeated links throughout the page
--	Vibrant background colours/links
--	Lots of images of colourful food and tropical locations/beaches
--	Large fonts
--	Features include – ‘book now’ button on top right corner, menu, about, find us, deliveries, parties, shop
--	Subscription prompt at the bottom of the page
-
-As part of my research, I also conducted interviews to identify what a user wants or needs from a restaurant website.
+I planned to blend those styles and create something artistic and functional to attract clients. I am also looking for a familiar design for the website, and I concluded that we usually connect with photography through Instagram or Flickr. Whence, taking into account my coding limitations,  I looked for some design and layout trademarks to implement on my website, 
 
 ### **ii.User Stories**
 
