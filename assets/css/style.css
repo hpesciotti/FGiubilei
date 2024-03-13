@@ -542,6 +542,23 @@ footer span {
     }
 }
 
+/* Media query: tablets and larger (800px and up) */
+@media screen and (min-width: 800px) {
+    /* Contact */
+
+    #form-background {
+        justify-content: left;
+    }
+
+    #form-container {
+        width: 45%;
+        margin-left: 2em;
+        align-self: center;
+    }
+
+}
+
+
 /* Media query: tablets and larger (992px and up) */
 @media screen and (min-width: 992px) {
 
@@ -699,7 +716,7 @@ footer span {
 
     #form-container {
         width: 25%;
-        margin-left: 10em;
+        margin-left: 3em;
         align-self: center;
     }
 
@@ -725,4 +742,21 @@ footer span {
         color: #fafafa;
         font-size: 125%;
     }
+
+/* Media query: larger screen (1024px and up) */
+@media screen and (min-width: 1024px) {
+
+    /* Contact */
+        #form-container {
+        width: 20em;
+        margin-left: 5em;
+        align-self: center;
+    }
+
+    /* Nav hover icons */
+    nav li:hover {
+        transform: scale(1.05);
+    }
+
+
 }
