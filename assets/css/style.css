@@ -13,13 +13,18 @@
 }
 
 /* General Styles */
+/*Generic font */
 body {
-    /*Generic font */
     Color: #fafafa;
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+}
+
+/* Hidden */
+.hidden {
+    visibility: hidden;
 }
 
 /* Header */
