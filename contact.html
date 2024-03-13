@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
     <meta name="description"
         content="Felipe Giubilei. Photographer and Videographer, São Paulo, Belo Horizonte, Brazil">
     <meta name="keywords"
         content="Photgrapher, photography, videographer, videography, concerts, wedding, photoshoots, urban, São Paulo, Belo Horizonte, Brazil">
+    <!-- Title -->
     <title>F. Giubilei | Photographer + Videographer</title>
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -16,77 +19,76 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <header>
-        <a href="index.html">
-            <img src="assets/images/logo.webp" alt="website logo" width="169" height="51">
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="ul-menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a class="nav-selected" href="contact.html">Get in touch!</a></li>
+<!-- Header -->
+<header>
+    <a href="index.html">
+        <img src="assets/images/logo.webp" alt="website logo" width="169" height="51">
+    </a>
+    <!-- Nav Section -->
+    <input type="checkbox" id="nav-toggle" name="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+    <nav>
+        <ul id="ul-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a class="nav-selected" href="contact.html">Get in touch!</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div id="form-background">
+        <div id="form-container">
+            <h3>Get in Touch!</h3>
+            <form action="thank-you.html" method="url">
+                <label for="full-name">Name:</label><br>
+                <input type="text" class="form-single" id="full-name" name="full-name" placeholder="Your Name"
+                    required><br>
+                <label for="contact-subject">Subject:</label><br>
+                <input type="text" class="form-single" id="contact-subject" name="contact-subject" placeholder="Subject"
+                    required><br>
+                <label for="personal-email">E-mail:</label><br>
+                <input type="email" class="form-single" id="personal-email" name="personal-email"
+                    placeholder="email@example.com" required><br>
+                <label for="your-message">Message:</label><br>
+                <textarea class="form-box" id="your-message" name="your-message" maxlength="500"
+                    placeholder="Book a session or just leave a comment!" required></textarea><br>
+                <input type="submit" class="contact-button" value="Send!">
+                <input type="reset" class="contact-button" value="Reset">
+            </form>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div id="social-container">
+        <div>
+            <span>Check out my social media!</span>
+        </div>
+        <div>
+            <ul id="social-networks">
+                <li><a href="https://www.instagram.com/felipegiubilei/" target="_blank" rel="noopener"
+                        aria-label="visit Felipe's instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href="https://www.flickr.com/photos/felipegfotografia/page9" target="_blank" rel="noopener"
+                        aria-label="visit Felipe's flickr page (opens in a new tab)"><i
+                            class="fa-brands fa-flickr"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/felipe-giubilei-25942a233/?originalSubdomain=br"
+                        target="_blank" rel="noopener" aria-label="visit Felipe's LinkedIn page (opens in a new tab)"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Ffelipegiubilei" target="_blank"
+                        rel="noopener" aria-label="visit Felipe's X/Twitter page (opens in a new tab)"><i
+                            class="fa-brands fa-square-x-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com/@felipegiubilei" target="_blank" rel="noopener"
+                        aria-label="visit Felipe's Youtube Channel (opens in a new tab)"><i
+                            class="fa-brands fa-square-youtube"></i></a></li>
             </ul>
-        </nav>
-    </header>
-
-    <main>
-        <div id="form-background">
-            <div id="form-container">
-                <h3>Get in Touch!</h3>
-                <form action="thank-you.html" method="url">
-                    <label for="full-name">Name:</label><br>
-                    <input type="text" class="form-single" id="full-name" name="full-name" placeholder="Your Name"
-                        required><br>
-                    <label for="contact-subject">Subject:</label><br>
-                    <input type="text" class="form-single" id="contact-subject" name="contact-subject"
-                        placeholder="Subject" required><br>
-                    <label for="personal-email">E-mail:</label><br>
-                    <input type="email" class="form-single" id="personal-email" name="personal-email"
-                        placeholder="email@example.com" required><br>
-                    <label for="your-message">Message:</label><br>
-                    <textarea class="form-box" id="your-message" name="your-message" maxlength="500"
-                        placeholder="Book a session or just leave a comment!" required></textarea><br>
-                    <input type="submit" class="contact-button" value="Send!">
-                    <input type="reset" class="contact-button" value="Reset">
-                </form>
-            </div>
         </div>
-    </main>
-
-    <footer>
-        <div id="social-container">
-            <div>
-                <span>Check out my social media!</span>
-            </div>
-            <div>
-                <ul id="social-networks">
-                    <li><a href="https://www.instagram.com/felipegiubilei/" target="_blank" rel="noopener"
-                            aria-label="visit Felipe's instagram page (opens in a new tab)"><i
-                                class="fa-brands fa-square-instagram"></i></a></li>
-                    <li><a href="https://www.flickr.com/photos/felipegfotografia/page9" target="_blank" rel="noopener"
-                            aria-label="visit Felipe's flickr page (opens in a new tab)"><i
-                                class="fa-brands fa-flickr"></i></a>
-                    </li>
-                    <li><a href="https://www.linkedin.com/in/felipe-giubilei-25942a233/?originalSubdomain=br"
-                            target="_blank" rel="noopener"
-                            aria-label="visit Felipe's LinkedIn page (opens in a new tab)"><i
-                                class="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Ffelipegiubilei"
-                            target="_blank" rel="noopener"
-                            aria-label="visit Felipe's X/Twitter page (opens in a new tab)"><i
-                                class="fa-brands fa-square-x-twitter"></i></a></li>
-                    <li><a href="https://www.youtube.com/@felipegiubilei" target="_blank" rel="noopener"
-                            aria-label="visit Felipe's Youtube Channel (opens in a new tab)"><i
-                                class="fa-brands fa-square-youtube"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <script src="https://kit.fontawesome.com/73bb3e796f.js" crossorigin="anonymous"></script>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/73bb3e796f.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
