@@ -62,7 +62,7 @@ On a personal note, in the search for the ideal theme to build my first website,
 
 Therefore, I thought about the work of my dear cousin Felipe Giubilei, an accomplished photographer. To my surprise, his work needs a landing page. Thus, besides having a solid theme for my PP1 with excellent visual appeal given by his photos, I can soon grace him with a fully functional website.
 
-[Back to top](https://github.com/hpesciotti/FGiubilei/##contents)
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ## **2.UX Design**
 
@@ -75,38 +75,23 @@ I intended to blend those styles, striking a balance between something artistic 
 Some of the photographer's pages I researched were selected by [Webcitz](https://www.webcitz.com/blog/50-best-photographer-websites/) as the best 50 photographers websites.
 
 #### Artistic Unorthodox Websites
-
-    - [David William Baum](https://www.davidwilliambaum.com/)
-    - [Levon Biss](https://levonbiss.com/)
-    - [Giles Clement](https://www.gilesclement.com/)
+- [David William Baum](https://www.davidwilliambaum.com/)
+- [Levon Biss](https://levonbiss.com/)
+- [Giles Clement](https://www.gilesclement.com/)
 
 #### More User Friendly Websites
-
-    - [Greg Ross](https://www.gregoryrossblog.com/)
-    - [Kristen Hazelton](https://kristenhazelton.com/)
-    - [WeShootFood](https://www.weshootfood.net/)
+- [Greg Ross](https://www.gregoryrossblog.com/)
+- [Kristen Hazelton](https://kristenhazelton.com/)
+- [WeShootFood](https://www.weshootfood.net/)
 
 ### **ii.User Stories**
 
-#### **First-Time Visitor Goal**
-
--	I want to find out what type of food I can expect from this restaurant
--	I want to find out about the restaurant’s theme and atmosphere
--	I want to know the location and opening times of the restaurant
--	I want to see if I like anything on the menu and if vegetarian options are available
--	I want to find what I’m looking for quickly, without having to read too much or follow too many links
-
-#### **Returning Visitor Goal**
-
--	I want to see if there are any special offers
--	I want to see if I can book a table at my preferred location
-
-#### **Frequent Visitor Goal**
-
--	I want to see if there is a loyalty scheme and subscribe to the newsletter for special offers and discounts
--	I want to visit the restaurant’s social media profiles to find new offers
--	I want to know if there are new additions to the menu
--	I want to know if I can buy any of the restaurant’s products to cook at home
+-   I want to acquaint myself with the photographer's portfolio.
+-   I want to understand the types of photoshoots the photographer can undertake.
+-   I want to quickly find what I'm looking for, without extensive reading or following numerous links.
+-   I want to learn about the photographer's qualifications.
+-   I want to discover how to contact the photographer.
+-	I want to book a session with the photographer.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/#felipe-giubilei-photography)
 
