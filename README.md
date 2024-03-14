@@ -4,57 +4,53 @@
 
 [Visit my website here](https://hpesciotti.github.io/FGiubilei/index.html)
 
-<!-- <div align="center">
-
-![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fshanedoyledev.github.io%2Fspacefruit%2F)
-![GitHub language count](https://img.shields.io/github/languages/count/ShaneDoyleDev/spacefruit)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/ShaneDoyleDev/spacefruit)
-![GitHub repo size](https://img.shields.io/github/repo-size/ShaneDoyleDev/spacefruit)
-
-</div> -->
 
 ## CONTENTS  
 
-1. [Introduction](#introduction)
+1. [Introduction](#1-introduction)
 
-2. [User Experience - UX](https://github.com/hpesciotti/FGiubilei/#ux-design)
+2. [UX Design](#2-ux-design)
 
-    i. [Strategy Plane](https://github.com/hpesciotti/FGiubilei/#strategy-plane)
+    2.1. [Strategy](#21-strategy)
 
-    ii. [User stories](https://github.com/hpesciotti/FGiubilei/#user-stories)
+    2.2. [User Stories](#22-user-stories)
     
-    iii. [Wireframes](https://github.com/hpesciotti/FGiubilei/#structure-plane)
+    2.3. [Wireframes](#23-wireframes)
 
-    iv. [Design](https://github.com/hpesciotti/FGiubilei/#scope-plane)
+    2.4. [Design](#24-design)
 
-3. [Features](https://github.com/hpesciotti/FGiubilei/#features)
+3. [Features](#3-features)
 
-    i. [Existing Features](https://github.com/hpesciotti/FGiubilei/#existing-features)
+    3.1. [Existing Features](#31-existing-features)
 
-    ii. [Features to be implemented in the future](https://github.com/hpesciotti/FGiubilei/#features-to-be-implemented-in-the-future)
+    3.2. [Future Features](#32-future-features)
 
-4. [Technology Used](https://github.com/hpesciotti/FGiubilei/#technology-used)
+4. [Technologies Used](#4-technologies-used)
 
-    i. [Languages Used](https://github.com/hpesciotti/FGiubilei/#main-languages)
+    4.1. [Languages Used](#41-languages-used)
 
-    ii. [Frameworks, Libraries & Programs Used](https://github.com/hpesciotti/FGiubilei/#frameworks-libraries-and-programmes)
+    4.2. [Frameworks, Libraries & Programs Used](#42---frameworks-libraries-technologies--programs-used)
 
-6. [Deployment](https://github.com/hpesciotti/FGiubilei/#deployment)
+5. [Testing](#5-testing)
 
-7. [Testing](https://github.com/hpesciotti/FGiubilei/#issues-and-bugs)
+    5.1. [Further Testing](#51-futher-testing)
 
-    i. [Testing User Stories from User Experience (UX) Section](https://github.com/hpesciotti/FGiubilei/#main-languages)
+    5.2. [Bugs and Fixe](#52-bugs--fixes)
 
-    ii. [Further Testing](https://github.com/hpesciotti/FGiubilei/#main-languages)
+    5.3. [Unsolved Bugs](#53-unsolved-bugs)
 
-    iii. [Known Bugs](https://github.com/hpesciotti/FGiubilei/#main-languages)
+6. [Deploymente](#6-deployment)
 
-8. [Credits](https://github.com/hpesciotti/FGiubilei/#credits)
+    6.1. [Forking the Github Repository](#61-forking-the-github-repository)
 
-9. [Acknowledgements](https://github.com/hpesciotti/FGiubilei/#acknowledgements)
+    6.2. [Github Pages](#62-github-pages)
+
+    6.3. [Making a Local Clone](#63-making-a-local-clone)
+
+7. [Credits](#7-credits)
 
 
-## **1-Introduction**
+## **1. Introduction**
 
 Welcome to Felipe Giubilei Photography, the website of a Brazilian audiovisual professional with a diverse portfolio comprising a plethora of photoshoots, from family pictures and renowned rock bands to journalistic images of demonstrations and independent short films. The website is designed as an online portfolio showcasing Felipe's artistic creations and aims to attract potential clients who value a skilled and versatile photographer by displaying his work.  
 
@@ -64,9 +60,9 @@ Therefore, I thought about the work of my dear cousin Felipe Giubilei, an accomp
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-## **2-UX Design**
+## **2. UX Design**
 
-### **2.1-Strategy**
+### **2.1. Strategy**
 
 While researching other photographers' websites, I noticed they were very minimalistic in design, with few text sections and mainly focusing on the photos. The artistic appeal was high, but the page layout structure was sometimes unorthodox. Another thing I noticed is that, in general, there are two types of photographer websites: some more artistic, which belong to award-winning professionals, and the more user friendly ones, with more recognizable sections, sucha as contact details, which belong to freelance professionals specialized in wedding photoshoots. 
 
@@ -86,7 +82,7 @@ Some of the photographer's pages I researched were selected by [Webcitz](https:/
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-### **2.2-User Stories**
+### **2.2. User Stories**
 
 #### **First Time Visitor Goals**
 -   I want to acquaint myself with the photographer's portfolio.
@@ -104,7 +100,7 @@ Some of the photographer's pages I researched were selected by [Webcitz](https:/
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-### **2.3-Wireframes**
+### **2.3. Wireframes**
 
 I created the initial website wireframes in MS PowerPoint, which I was most familiar with. At this stage in the project development, I hadn't decided on the colour scheme yet, so I experimented with the design and layout of the main pages/features.
 
@@ -122,7 +118,7 @@ I created the initial website wireframes in MS PowerPoint, which I was most fami
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-### **2.4-Design**
+### **2.4. Design**
 
 #### **Imagery**
 
@@ -134,6 +130,8 @@ I used authorial photos, so I had to select images from the photographer's portf
 -   Urban Photography, and,
 -   Weddings.
 
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
 #### **Colour Scheme**
 
 The colour scheme is inspired by tones of violet, indigo, and spotlights, as seen in the selected pictures. This theme is currently popular in software development, and it can be seen in the Microsoft 365 icon, Microsoft Clipchamp and [ESRI Ireland's website](https://www.esri-ireland.ie/en-ie/homehttps://www.esri-ireland.ie/en-ie/home), which heavily weighted on the chosen appearance of my website's nav bar. The colour scheme also matches the background hues of the [hero-image](docs/documentation/hero-image.png).
@@ -142,19 +140,21 @@ The colour scheme is inspired by tones of violet, indigo, and spotlights, as see
 
 The selection of text and background took into consideration the contrast ratio of at least Level AA. [EightShape contrast grid](docs/documentation/contrast-grid.png) is present in the documentation. 
 
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
 #### **Typography**
 
 I employed three different fonts for the website design. The logo features the Bauhaus 93 font, which is not included in the style.css file as it was utilized in another software to create the logo image. The other two fonts, Inter and Rubik, are sourced from Google Fonts. Rubik font is applied to the navigation bar, while Inter is used in the rest of the website's sections, such as textual elements.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-## **3-Features**
+## **3. Features**
 
-### **3.1-Existing Features**
+### **3.1. Existing Features**
 
-### **Index/Home Page**
+#### **Index/Home Page**
 
-#### **Navigation Bar**
+##### **Navigation Bar**
 
 ![Nav Bar](docs/documentation/nav-bar-desktop-tablet.png)
 
@@ -175,7 +175,7 @@ I accomplished this design based on the Love Running Project.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-#### **Hero Section**
+##### **Hero Section**
 
 ![Hero Section](docs/documentation/hero-image.png)
 
@@ -191,7 +191,7 @@ I accomplished this design based on the Love Running Project.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-#### **Polaroid Section**
+##### **Polaroid Section**
 
 ![Polaroid Section](docs/documentation/polaroid-section.png)
 
@@ -207,13 +207,22 @@ I accomplished this design based on the Love Running Project.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-## **4-Technologies Used**
+### **3.2. Future Features**
 
-### **4.1-Languages Used**
+
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+## **4. Technologies Used**
+
+### **4.1. Languages Used**
+
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
+
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### **4.2 - Frameworks, Libraries, Technologies & Programs Used**  
+
 - Gitpod: used form coding
 - GitHub: to save and store all files for this website  
 - Git: used for version control
@@ -232,21 +241,21 @@ I accomplished this design based on the Love Running Project.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-## **5-Testing**
+## **5. Testing**
 
-### **5.1-Futher Testing**
+### **5.1. Futher Testing**
 
-### **5.2-Bugs & Fixes** 
+### **5.2. Bugs & Fixes** 
 
-### **5.3-Unsolved Bugs** 
+### **5.3. Unsolved Bugs** 
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-## **6-Deployment**
+## **6. Deployment**
 
 The website was developed using Gitpod code editor, committed to Git as a local repository, and then pushed to GitHub for storage.
 
-### **6.1-GitHub Pages**
+### **6.1. GitHub Pages**
 
 The project was deployed to GitHub Pages using the following steps:
 
@@ -258,7 +267,7 @@ V. Under "Source", click on the dropdown item called "None", select "Master", an
 VI. The page will automatically refresh.
 VII. Now you should see a notification message that provides the now published site link: “Your site is ready to be published at [https://hpesciotti.github.io/FGiubilei/](https://hpesciotti.github.io/FGiubilei/)”.
 
-### **6.1-Forking the GitHub Repository**
+### **6.2. Forking the GitHub Repository**
 
 By forking the GitHub repository you can make a copy of the original repository on your GitHub account. You can view and/or make changes to this copy, without affecting the original repository, by using the following steps:
 
@@ -268,7 +277,7 @@ III. At the top right of the Repository, just below your profile picture, find t
 IV. You should now have a copy of the original repository in your GitHub account.
 V. Changes made to the forked repository can be merged with the original repository via a pull request.
 
-### **6.2-Making a Local Clone**
+### **6.3. Making a Local Clone**
 
 By cloning a GitHub Repository, you can create a local copy on your computer of the remote repository. This allows you to make all of your edits locally, rather than directly in the source files of the origin repository, by using the following steps:
 
@@ -301,9 +310,9 @@ Changes made on the local machine (cloned repository) can be pushed to the upstr
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-## **7-Credits**
+## **7. Credits**
 
-### **7.1-Content**
+### **7.1. Content**
 
 - [W3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp): for hover transform scale and font-size effect and flex-box rules.
 
@@ -321,7 +330,7 @@ Changes made on the local machine (cloned repository) can be pushed to the upstr
 
 - [Amy Richardson/scoops](https://amylour.github.io/scoops_pp1): for README structure and Markdown guidance.
 
-### **7.2-Media**
+### **7.2. Media**
 
 - All the images used in the website were kindly provided by [Felipe Giubilei](https://www.flickr.com/photos/felipegfotografia/page9)
 
@@ -329,13 +338,13 @@ Changes made on the local machine (cloned repository) can be pushed to the upstr
 
 - [Favicon](https://favicon.io/): for the favicon used for this site.
 
-### **7.3-Acknowlegements**
+### **7.3. Acknowlegements**
 
 - My cousin, [Felipe Giubilei](https://www.instagram.com/felipegiubilei/), for provinding his beatiful pictures.
 
 - My mentor, [Darío Carrasquel](https://github.com/jeetkunecoder/jeetkunecoder), for his support and constructive feedback.
 
-- My informal mentor and great friend, [Bruno Dias](https://github.com/brunoald/brunoald), for his helpful and supportive advice.
+- My informal mentor and great friend, [Bruno Dias](https://github.com/brunoald/), for his helpful and supportive advice.
 
 - My cohort facilitator, [Amy Richardson](https://github.com/amylour/amylour), for being always helpful and testing the website. 
 
