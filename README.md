@@ -71,13 +71,19 @@ I intended to blend those styles, striking a balance between something artistic 
 Some of the photographer's pages I researched were selected by [Webcitz](https://www.webcitz.com/blog/50-best-photographer-websites/) as the best 50 photographers websites.
 
 #### **Artistic Unorthodox Websites**
+
 - [David William Baum](https://www.davidwilliambaum.com/)
+
 - [Levon Biss](https://levonbiss.com/)
+
 - [Giles Clement](https://www.gilesclement.com/)
 
 #### **More User Friendly Websites**
+
 - [Greg Ross](https://www.gregoryrossblog.com/)
+
 - [Kristen Hazelton](https://kristenhazelton.com/)
+
 - [WeShootFood](https://www.weshootfood.net/)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
@@ -105,15 +111,23 @@ Some of the photographer's pages I researched were selected by [Webcitz](https:/
 I created the initial website wireframes in MS PowerPoint, which I was most familiar with. At this stage in the project development, I hadn't decided on the colour scheme yet, so I experimented with the design and layout of the main pages/features.
 
 #### **Desktop Version**
+
 -   [Index](docs/documentation/wireframes-index-pc.png)
+
 -   [Gallery](docs/documentation/wireframes-gallery-pc.png)
+
 -   [About](docs/documentation/wireframes-about-pc.png)
+
 -   [Contact](docs/documentation/wireframes-contact-pc.png)
 
 #### **Mobile Version**
+
 -   [Index](docs/documentation/wireframes-index-mobile.png)
+
 -   [Gallery](docs/documentation/wireframes-gallery-mobile.png)
+
 -   [About](docs/documentation/wireframes-about-mobile.png)
+
 -   [Contact](docs/documentation/wireframes-contact-mobile.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
@@ -349,6 +363,13 @@ Page	|	Score	|	Screenshots
 
 
 ### **5.2. Bugs & Fixes** 
+
+|	Bug	|	Sollution	|	Screenshots
+|	 :----	|	  :----	|	  :------------
+|	Font Awesome Icons wasn't being overridden by  footer style it keeps the open link appearance	|	Add to *wildcard operator: text-decoration: none; list-style: none; color: inherit;	|	[Solution](docs/documentation/error-1-font-awesome.png)
+|	"Call to Action" pink box is not aligned to the hero section in mobile with large screens	|	Add relative units in mobile version (55em)	|	[Issue](docs/documentation/error-2-floating-box.png) / [Solution](docs/documentation/error-2-solution.png)
+|	Contact Form was not aligned to left corner of the page in iPad Air	|	Add a media querry for 800px	|	[Issue](docs/documentation/error-3-issue-left-form.png) / [Solution](docs/documentation/error-3-solution-left-form.png)
+|	Performance Issues due to high resolution photos in jpg format	|	Resize and compact images and transform JPG to WEBP by CloudConvert. <br>The image had been compacted once via Tiny Png, but it was needed further compression.	|	[Issue](docs/documentation/error-4-heavy-images)
 
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
