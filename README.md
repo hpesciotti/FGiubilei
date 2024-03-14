@@ -1,4 +1,4 @@
-# Felipe Giubilei Photography
+# F. Giubilei | Photography
 
 ![Felipe Giubilei Photography's website displayed on various devices](docs/documentation/am-i-responsive-fgiubilei.png)
 
