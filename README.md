@@ -230,26 +230,109 @@ I accomplished this design based on the Love Running Project.
 ### **4.2 - Frameworks, Libraries, Technologies & Programs Used**  
 
 - Gitpod: used form coding
+
 - GitHub: to save and store all files for this website  
+
 - Git: used for version control
+
 - Google Fonts: fonts were imported from here 
+
 - Font Awesome: icons and their associated kit were downloaded from here  
+
 - MS Power Point: used to create wireframes
+
+- MS Excel: to concatenate img querrys
+
 - ArcGIS: used to create site logo 
+
 - Favicon.io: for ice cream favicon  
+
 - Tiny PNG: to compress images
+
 - JPG to WEBP | CloudConvert: to convert jpg to webp and further compressing
+
 - ChatGPT:  for improving and making text content more engaging
-- Grammarly: fo spelling or grammatical inaccuracies in the text
+
+- Grammarly: for spelling or grammatical inaccuracies in the text
+
 - Google Dev Tools: to debug and for testing responsiveness 
+
 - Google Lighthouse: for auditing the performance of the website
+
 - W3C Validator: for validating the HTML and CSS code 
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ## **5. Testing**
 
+- Daily testing during the code stage was conducted through Google Chrome's DevTools. 
+
+- Moreover, futher testing was executed through real-world devices, laptopts Mac and Windows and Apple Mobiles (Iphone 12 mini, Iphone X, Iphone 14). 
+The browsers used were:  
+    - Chrome  
+    - Firefox  
+    - Edge (only Desktop)
+    - Safari  
+
 ### **5.1. Futher Testing**
+
+### **HTML Validation using W3C Validation** 
+
+##### **[Index Page]**(https://hpesciotti.github.io/FGiubilei/index.html)
+
+[!W3 validator Index](docs/documentation/w3-checker-index.png)
+
+##### **[Contact Page]**(https://hpesciotti.github.io/FGiubilei/contact.html)
+
+[!W3 validator Contact](docs/documentation/w3-chercker-contact.png)
+
+##### **[About Page]**(https://hpesciotti.github.io/FGiubilei/about.html)
+
+[!W3 validator About](docs/documentation/w3-chercker-about.png)
+
+##### **[Thank You]**(https://hpesciotti.github.io/FGiubilei/thank-you.html)
+
+[!W3 validator Thank-You](docs/documentation/w3-chercker-thank-you.png)
+
+##### **[Error 404]**(https://hpesciotti.github.io/FGiubilei/404.html)
+
+[!W3 validator 404](docs/documentation/w3-chercker-404.png)
+
+##### **[Gallery Page]**(https://hpesciotti.github.io/FGiubilei/gallery.html)
+
+[!W3 validator Gallery](docs/documentation/w3-chercker-gallery.png)
+
+##### **[Gallery-Family Moments]**(https://hpesciotti.github.io/FGiubilei/gallery-family.html)
+
+[!W3 validator Gallery-Family Moments](docs/documentation/w3-chercker-gallery-family.png)
+
+##### **[Gallery-Concerts ]**(https://hpesciotti.github.io/FGiubilei/gallery-concerts.html)
+
+[!W3 validator Gallery-Concerts](docs/documentation/w3-chercker-gallery-concerts.png)
+
+##### **[Gallery-Solo Photoshoots]**(https://hpesciotti.github.io/FGiubilei/gallery-solo.html)
+
+[!W3 validator Gallery-Solo Photoshoots](docs/documentation/w3-chercker-gallery-solo.png)
+
+##### **[Gallery-Urban Pictures]**(https://hpesciotti.github.io/FGiubilei/gallery-urban.html)
+
+[!W3 validator Gallery-Urban Pictures](docs/documentation/w3-chercker-gallery-urban.png)
+
+##### **[Gallery-Videos ]**(https://hpesciotti.github.io/FGiubilei/gallery-video.html)
+
+[!W3 validator Gallery-Videos](docs/documentation/w3-chercker-gallery-video.png)
+
+##### **[Gallery-Weddings ]**(https://hpesciotti.github.io/FGiubilei/gallery-weddings.html)
+
+[!W3 validator Gallery-Weddings](docs/documentation/w3-chercker-gallery-weddings.png)
+
+##### **[Gallery-Institutional Events]**(https://hpesciotti.github.io/FGiubilei/gallery-i-events.html)
+
+[!W3 validator Gallery-Institutional Events](docs/documentation/w3-chercker-gallery-i-events.png)
+
+### **CSS Validation using W3C Validation** 
+
+[!W3 Css.Style](docs/documentation/w3-css.png)
 
 ### **5.2. Bugs & Fixes** 
 
