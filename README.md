@@ -210,23 +210,25 @@ I accomplished this design based on the Love Running Project.
 ## **4-Technologies Used**
 
 ### **4.1-Languages Used**
-- HTML5
-- CSS3
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### **4.2 - Frameworks, Libraries, Technologies & Programs Used**  
-- Gitpod - used form coding
-- GitHub - to save and store all files for this website  
-- Git - used for version control
-- Google Fonts - fonts were imported from here 
-- Font Awesome - icons and their associated kit were downloaded from here  
-- MS Power Point - used to create wireframes
-- ArcGIS - used to create site logo 
-- Favicon.io - for ice cream favicon  
-- Tiny PNG - to compress images
-- JPG to WEBP | CloudConvert - to convert jpg to webp and further compressing
-- Google Dev Tools - to debug and for testing responsiveness 
-- Google Lighthouse - for auditing the performance of the website
-- W3C Validator - for validating the HTML and CSS code 
+- Gitpod: used form coding
+- GitHub: to save and store all files for this website  
+- Git: used for version control
+- Google Fonts: fonts were imported from here 
+- Font Awesome: icons and their associated kit were downloaded from here  
+- MS Power Point: used to create wireframes
+- ArcGIS: used to create site logo 
+- Favicon.io: for ice cream favicon  
+- Tiny PNG: to compress images
+- JPG to WEBP | CloudConvert: to convert jpg to webp and further compressing
+- ChatGPT:  for improving and making text content more engaging
+- Grammarly: fo spelling or grammatical inaccuracies in the text
+- Google Dev Tools: to debug and for testing responsiveness 
+- Google Lighthouse: for auditing the performance of the website
+- W3C Validator: for validating the HTML and CSS code 
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
@@ -248,13 +250,13 @@ The website was developed using Gitpod code editor, committed to Git as a local 
 
 The project was deployed to GitHub Pages using the following steps:
 
-1. Log in to GitHub.
-2. Navigate to the main page of GitHub Repository that will be deployed.
-3. At the top of the Repository, find the "Settings" button on the menu and click on it.
-4. Inside the settings, on the left side of the page, there’s a list of tab menu. Find the “Pages” tab, and click on it.
-5. Under "Source", click on the dropdown item called "None", select "Master", and then click on the “Save” button.
-6. The page will automatically refresh.
-7. Now you should see a notification message that provides the now published site link: “Your site is ready to be published at [https://hpesciotti.github.io/FGiubilei/](https://hpesciotti.github.io/FGiubilei/)”.
+I. Log in to GitHub.
+II. Navigate to the main page of GitHub Repository that will be deployed.
+III. At the top of the Repository, find the "Settings" button on the menu and click on it.
+IV. Inside the settings, on the left side of the page, there’s a list of tab menu. Find the “Pages” tab, and click on it.
+V. Under "Source", click on the dropdown item called "None", select "Master", and then click on the “Save” button.
+VI. The page will automatically refresh.
+VII. Now you should see a notification message that provides the now published site link: “Your site is ready to be published at [https://hpesciotti.github.io/FGiubilei/](https://hpesciotti.github.io/FGiubilei/)”.
 
 ### **6.1-Forking the GitHub Repository**
 
@@ -297,19 +299,46 @@ Changes made on the local machine (cloned repository) can be pushed to the upstr
 
 [Click Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for a more comprehensive guide on how to complete the above process.
 
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
 ## **7-Credits**
 
 ### **7.1-Content**
 
+- [W3Schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp): for hover transform scale and font-size effect and flex-box rules.
+
+- [Code Institute](https://codeinstitute.net/ie/): Love Running Project, various implemented contents, such as: hero section, gallery, footer, and form section.
+
+- [CSS Gradient's website](https://cssgradient.io/): for the gradient/degradé effect on the nav bar.
+
+- [Coders' Guidebook website](https://codersguidebook.com/how-to-build-a-website/how-to-add-polaroid-images-to-a-website): for the porlaroid section.
+
+- [ESRI Ireland's website](https://www.esri-ireland.ie/en-ie/homehttps://www.esri-ireland.ie/en-ie/home): influencedn on the chosen appearance of my website's nav bar.
+
+- [Shane Doyle/spacefruit](https://github.com/ShaneDoyleDev/spacefruit): for README structure and Markdown guidance.
+
+- [Alice Hillier/rainforest-cafe](https://github.com/alicehillier/rainforest-cafe): for README structure and Markdown guidance.
+
+- [Amy Richardson/scoops](https://amylour.github.io/scoops_pp1): for README structure and Markdown guidance.
+
 ### **7.2-Media**
-- [Font Awesome](https://fontawesome.com/) for the icons used in the footer of this site.
-- [Favicon](https://favicon.io/) for the favicon used for this site.
+
+- All the images used in the website were kindly provided by [Felipe Giubilei](https://www.flickr.com/photos/felipegfotografia/page9)
+
+- [Font Awesome](https://fontawesome.com/): for the icons used in the footer of this site.
+
+- [Favicon](https://favicon.io/): for the favicon used for this site.
 
 ### **7.3-Acknowlegements**
 
-- My cousin, Felipe Giubilei, for provinding his beatiful pictures.
-- My mentor, Darío Carrasquel, for his support and constructive feedback.
-- My informal mentor and good friend, Bruno Dias, for his helpful and supportive advice.
+- My cousin, [Felipe Giubilei](https://www.instagram.com/felipegiubilei/), for provinding his beatiful pictures.
+
+- My mentor, [Darío Carrasquel](https://github.com/jeetkunecoder/jeetkunecoder), for his support and constructive feedback.
+
+- My informal mentor and great friend, [Bruno Dias](https://github.com/brunoald/brunoald), for his helpful and supportive advice.
+
+- My cohort facilitator, [Amy Richardson](https://github.com/amylour/amylour), for being always helpful and testing the website. 
+
 - My partner, Joana, and my sister, Patrícia, for testing the website.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
