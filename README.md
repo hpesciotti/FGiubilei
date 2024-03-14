@@ -284,57 +284,22 @@ I opted to change the post method redirecting to Code Institute dump page to a U
 
 ![W3 validator Contact](docs/documentation/w3-checker-contact.png)
 
-##### **[Index Page]**(https://hpesciotti.github.io/FGiubilei/index.html)
+|	Page	|	Test	|	Screenshots	|
+|	 :----	|	  :----	|	  :------------:|
+|	[Index](https://hpesciotti.github.io/FGiubilei/index.html)	|	No erros/warnings	|	[W3 validator Index](docs/documentation/w3-checker-index.png)	|
+|	[Contact](https://hpesciotti.github.io/FGiubilei/contact.html)	|	Error bad URL	|	[W3 validator Contact](docs/documentation/w3-checker-contact.png)	|
+|	[About](https://hpesciotti.github.io/FGiubilei/about.html)	|	No erros/warnings	|	[W3 validator About](docs/documentation/w3-checker-about.png)	|
+|	[Thank You](https://hpesciotti.github.io/FGiubilei/thank-you.html)	|	No erros/warnings	|	[W3 validator Thank-You](docs/documentation/w3-checker-thank-you.png)	|
+|	[404](https://hpesciotti.github.io/FGiubilei/404.html)	|	No erros/warnings	|	[W3 validator 404](docs/documentation/w3-checker-404.png)	|
+|	[Gallery](https://hpesciotti.github.io/FGiubilei/gallery.html)	|	No erros/warnings	|	[W3 validator Gallery](docs/documentation/w3-checker-gallery.png)	|
+|	[Gallery-Family Moments](https://hpesciotti.github.io/FGiubilei/gallery-family.html)	|	No erros/warnings	|	[W3 validator Gallery-Family Moments](docs/documentation/w3-checker-gallery-family.png)	|
+|	[Gallery-Concerts](https://hpesciotti.github.io/FGiubilei/gallery-concerts.html)	|	No erros/warnings	|	[W3 validator Gallery-Concerts](docs/documentation/w3-checker-gallery-concerts.png)	|
+|	[Gallery-Solo Photoshoots](https://hpesciotti.github.io/FGiubilei/gallery-solo.html)	|	No erros/warnings	|	[W3 validator Gallery-Solo Photoshoots](docs/documentation/w3-checker-gallery-solo.png)	|
+|	[Gallery-Urban Pictures](https://hpesciotti.github.io/FGiubilei/gallery-urban.html)	|	No erros/warnings	|	[W3 validator Gallery-Urban Pictures](docs/documentation/w3-checker-gallery-urban.png)	|
+|	[Gallery-Videos](https://hpesciotti.github.io/FGiubilei/gallery-video.html )	|	No erros/warnings	|	[W3 validator Gallery-Videos](docs/documentation/w3-checker-gallery-video.png)	|
+|	[Gallery-Weddings](https://hpesciotti.github.io/FGiubilei/gallery-weddings.html)	|	No erros/warnings	|	[W3 validator Gallery-Weddings](docs/documentation/w3-checker-gallery-weddings.png)	|
+|	[Gallery-Institutional Events](https://hpesciotti.github.io/FGiubilei/gallery-i-events.html)	|	No erros/warnings	|	[W3 validator Gallery-Institutional Events](docs/documentation/w3-checker-gallery-i-events.png)	|
 
-[W3 validator Index](docs/documentation/w3-checker-index.png)
-
-##### **[Contact Page]**(https://hpesciotti.github.io/FGiubilei/contact.html)
-
-[W3 validator Contact](docs/documentation/w3-checker-contact.png)
-
-##### **[About Page]**(https://hpesciotti.github.io/FGiubilei/about.html)
-
-[W3 validator About](docs/documentation/w3-checker-about.png)
-
-##### **[Thank You]**(https://hpesciotti.github.io/FGiubilei/thank-you.html)
-
-[W3 validator Thank-You](docs/documentation/w3-checker-thank-you.png)
-
-##### **[Error 404]**(https://hpesciotti.github.io/FGiubilei/404.html)
-
-[W3 validator 404](docs/documentation/w3-checker-404.png)
-
-##### **[Gallery Page]**(https://hpesciotti.github.io/FGiubilei/gallery.html)
-
-[W3 validator Gallery](docs/documentation/w3-checker-gallery.png)
-
-##### **[Gallery-Family Moments]**(https://hpesciotti.github.io/FGiubilei/gallery-family.html)
-
-[W3 validator Gallery-Family Moments](docs/documentation/w3-checker-gallery-family.png)
-
-##### **[Gallery-Concerts ]**(https://hpesciotti.github.io/FGiubilei/gallery-concerts.html)
-
-[W3 validator Gallery-Concerts](docs/documentation/w3-checker-gallery-concerts.png)
-
-##### **[Gallery-Solo Photoshoots]**(https://hpesciotti.github.io/FGiubilei/gallery-solo.html)
-
-[W3 validator Gallery-Solo Photoshoots](docs/documentation/w3-checker-gallery-solo.png)
-
-##### **[Gallery-Urban Pictures]**(https://hpesciotti.github.io/FGiubilei/gallery-urban.html)
-
-[W3 validator Gallery-Urban Pictures](docs/documentation/w3-checker-gallery-urban.png)
-
-##### **[Gallery-Videos ]**(https://hpesciotti.github.io/FGiubilei/gallery-video.html)
-
-[W3 validator Gallery-Videos](docs/documentation/w3-checker-gallery-video.png)
-
-##### **[Gallery-Weddings ]**(https://hpesciotti.github.io/FGiubilei/gallery-weddings.html)
-
-[W3 validator Gallery-Weddings](docs/documentation/w3-checker-gallery-weddings.png)
-
-##### **[Gallery-Institutional Events]**(https://hpesciotti.github.io/FGiubilei/gallery-i-events.html)
-
-![W3 validator Gallery-Institutional Events](docs/documentation/w3-checker-gallery-i-events.png)
 
 ### **CSS Validation using W3C Validation** 
 
