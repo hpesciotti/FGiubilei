@@ -276,7 +276,7 @@ The browsers used were:
 
 ### **5.1. Futher Testing**
 
-### **HTML Validation using W3C Validation** 
+#### **HTML Validation using W3C Validation** 
 
 All of the pages are valid, showing no errors or warnings, except for the contact page.
 The error was diagnosed as bad value URL attribute method on element form.
@@ -284,7 +284,7 @@ I opted to change the post method redirecting to Code Institute dump page to a U
 
 ![W3 validator Contact](docs/documentation/w3-checker-contact.png)
 
-|	Page	|	Test	|	Screenshots	|
+|	Page	|	Result	|	Screenshot	|
 |	 :----	|	  :----	|	  :------------:|
 |	[Index](https://hpesciotti.github.io/FGiubilei/index.html)	|	No erros/warnings	|	[W3 validator Index](docs/documentation/w3-checker-index.png)	|
 |	[Contact](https://hpesciotti.github.io/FGiubilei/contact.html)	|	Error bad URL	|	[W3 validator Contact](docs/documentation/w3-checker-contact.png)	|
@@ -300,14 +300,22 @@ I opted to change the post method redirecting to Code Institute dump page to a U
 |	[Gallery-Weddings](https://hpesciotti.github.io/FGiubilei/gallery-weddings.html)	|	No erros/warnings	|	[W3 validator Gallery-Weddings](docs/documentation/w3-checker-gallery-weddings.png)	|
 |	[Gallery-Institutional Events](https://hpesciotti.github.io/FGiubilei/gallery-i-events.html)	|	No erros/warnings	|	[W3 validator Gallery-Institutional Events](docs/documentation/w3-checker-gallery-i-events.png)	|
 
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-### **CSS Validation using W3C Validation** 
+#### **CSS Validation using W3C Validation** 
 
 ![W3 Css.Style](docs/documentation/w3-css.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
+#### **Performance Lighthouse**
+
+
+
 ### **5.2. Bugs & Fixes** 
+
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ### **5.3. Unsolved Bugs** 
 
