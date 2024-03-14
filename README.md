@@ -282,7 +282,7 @@ All of the pages are valid, showing no errors or warnings, except for the contac
 The error was diagnosed as bad value URL attribute method on element form.
 I opted to change the post method redirecting to Code Institute dump page to a URL method, as my mentor and cohort facilitator indicated.
 
-![W3 validator Contact](docs/documentation/w3-chercker-contact.png)
+![W3 validator Contact](docs/documentation/w3-checker-contact.png)
 
 ##### **[Index Page]**(https://hpesciotti.github.io/FGiubilei/index.html)
 
@@ -290,51 +290,51 @@ I opted to change the post method redirecting to Code Institute dump page to a U
 
 ##### **[Contact Page]**(https://hpesciotti.github.io/FGiubilei/contact.html)
 
-![W3 validator Contact](docs/documentation/w3-chercker-contact.png)
+[W3 validator Contact](docs/documentation/w3-checker-contact.png)
 
 ##### **[About Page]**(https://hpesciotti.github.io/FGiubilei/about.html)
 
-![W3 validator About](docs/documentation/w3-chercker-about.png)
+[W3 validator About](docs/documentation/w3-checker-about.png)
 
 ##### **[Thank You]**(https://hpesciotti.github.io/FGiubilei/thank-you.html)
 
-![W3 validator Thank-You](docs/documentation/w3-chercker-thank-you.png)
+[W3 validator Thank-You](docs/documentation/w3-checker-thank-you.png)
 
 ##### **[Error 404]**(https://hpesciotti.github.io/FGiubilei/404.html)
 
-![W3 validator 404](docs/documentation/w3-chercker-404.png)
+[W3 validator 404](docs/documentation/w3-checker-404.png)
 
 ##### **[Gallery Page]**(https://hpesciotti.github.io/FGiubilei/gallery.html)
 
-![W3 validator Gallery](docs/documentation/w3-chercker-gallery.png)
+[W3 validator Gallery](docs/documentation/w3-checker-gallery.png)
 
 ##### **[Gallery-Family Moments]**(https://hpesciotti.github.io/FGiubilei/gallery-family.html)
 
-![W3 validator Gallery-Family Moments](docs/documentation/w3-chercker-gallery-family.png)
+[W3 validator Gallery-Family Moments](docs/documentation/w3-checker-gallery-family.png)
 
 ##### **[Gallery-Concerts ]**(https://hpesciotti.github.io/FGiubilei/gallery-concerts.html)
 
-![W3 validator Gallery-Concerts](docs/documentation/w3-chercker-gallery-concerts.png)
+[W3 validator Gallery-Concerts](docs/documentation/w3-checker-gallery-concerts.png)
 
 ##### **[Gallery-Solo Photoshoots]**(https://hpesciotti.github.io/FGiubilei/gallery-solo.html)
 
-![W3 validator Gallery-Solo Photoshoots](docs/documentation/w3-chercker-gallery-solo.png)
+[W3 validator Gallery-Solo Photoshoots](docs/documentation/w3-checker-gallery-solo.png)
 
 ##### **[Gallery-Urban Pictures]**(https://hpesciotti.github.io/FGiubilei/gallery-urban.html)
 
-![W3 validator Gallery-Urban Pictures](docs/documentation/w3-chercker-gallery-urban.png)
+[W3 validator Gallery-Urban Pictures](docs/documentation/w3-checker-gallery-urban.png)
 
 ##### **[Gallery-Videos ]**(https://hpesciotti.github.io/FGiubilei/gallery-video.html)
 
-![W3 validator Gallery-Videos](docs/documentation/w3-chercker-gallery-video.png)
+[W3 validator Gallery-Videos](docs/documentation/w3-checker-gallery-video.png)
 
 ##### **[Gallery-Weddings ]**(https://hpesciotti.github.io/FGiubilei/gallery-weddings.html)
 
-![W3 validator Gallery-Weddings](docs/documentation/w3-chercker-gallery-weddings.png)
+[W3 validator Gallery-Weddings](docs/documentation/w3-checker-gallery-weddings.png)
 
 ##### **[Gallery-Institutional Events]**(https://hpesciotti.github.io/FGiubilei/gallery-i-events.html)
 
-![W3 validator Gallery-Institutional Events](docs/documentation/w3-chercker-gallery-i-events.png)
+![W3 validator Gallery-Institutional Events](docs/documentation/w3-checker-gallery-i-events.png)
 
 ### **CSS Validation using W3C Validation** 
 
