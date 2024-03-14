@@ -173,6 +173,8 @@ I accomplished this design based on the Love Running Project.
 
 - The navigation bar's background has a degradé effect that changes from a three-colour gradient on the desktop/tablet version to a two-colour gradient on the mobile version. This choice was simply made by aesthetics. I drew inspiration from a degradé background from [ESRI Ireland's website](https://www.esri-ireland.ie/en-ie/homehttps://www.esri-ireland.ie/en-ie/home). The background css querry was obtainded through [CSS Gradient's website](https://cssgradient.io/).
 
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
 #### **Hero Section**
 
 ![Hero Section](docs/documentation/hero-image.png)
@@ -185,7 +187,9 @@ I accomplished this design based on the Love Running Project.
 
 - This feature wasn't planned when the wireframes were created, but the spacing and lack of an eye-catching element drove me to add the current Hero Section. I took inspiration for this feature from the Love Running Project.
 
-- There's also a "call to action" box that quickly informs the user of the website's main goal. This element was a source of a couple of errors due to its responsivity. The box was bleeding the Hero Section on smaller screens, which prompted me to change the hero image to a relative measure. In this case, I've used "em" metric for the length of the hero image.
+- There's also a "call to action" box that quickly informs the user of the website's main goal. This element was a source of a couple of errors due to its responsivity. The box was bleeding the Hero Section on smaller screens, which prompted me to change the hero image to a relative measure. In this case, I've used "em" unit for the length of the hero image.
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 #### **Polaroid Section**
 
@@ -200,3 +204,114 @@ I accomplished this design based on the Love Running Project.
 ![Polaroid Mobile and Tablet](docs/documentation/polaroid-section-mobile.png)
 
 - I added box-shadow and hover transform scale on large screens for better user interactivity.
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+## **4-Technologies Used**
+
+### **4.1-Languages Used**
+- HTML5
+- CSS3
+
+### **4.2 - Frameworks, Libraries, Technologies & Programs Used**  
+- Gitpod - used form coding
+- GitHub - to save and store all files for this website  
+- Git - used for version control
+- Google Fonts - fonts were imported from here 
+- Font Awesome - icons and their associated kit were downloaded from here  
+- MS Power Point - used to create wireframes
+- ArcGIS - used to create site logo 
+- Favicon.io - for ice cream favicon  
+- Tiny PNG - to compress images
+- JPG to WEBP | CloudConvert - to convert jpg to webp and further compressing
+- Google Dev Tools - to debug and for testing responsiveness 
+- Google Lighthouse - for auditing the performance of the website
+- W3C Validator - for validating the HTML and CSS code 
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+## **5-Testing**
+
+### **5.1-Futher Testing**
+
+### **5.2-Bugs & Fixes** 
+
+### **5.3-Unsolved Bugs** 
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+## **6-Deployment**
+
+The website was developed using Gitpod code editor, committed to Git as a local repository, and then pushed to GitHub for storage.
+
+### **6.1-GitHub Pages**
+
+The project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub.
+2. Navigate to the main page of GitHub Repository that will be deployed.
+3. At the top of the Repository, find the "Settings" button on the menu and click on it.
+4. Inside the settings, on the left side of the page, there’s a list of tab menu. Find the “Pages” tab, and click on it.
+5. Under "Source", click on the dropdown item called "None", select "Master", and then click on the “Save” button.
+6. The page will automatically refresh.
+7. Now you should see a notification message that provides the now published site link: “Your site is ready to be published at [https://hpesciotti.github.io/FGiubilei/](https://hpesciotti.github.io/FGiubilei/)”.
+
+### **6.1-Forking the GitHub Repository**
+
+By forking the GitHub repository you can make a copy of the original repository on your GitHub account. You can view and/or make changes to this copy, without affecting the original repository, by using the following steps:
+
+I. Log in to GitHub.
+II. Navigate to the main page of the GitHub Repository that you want to fork.
+III. At the top right of the Repository, just below your profile picture, find the "Fork" button.
+IV. You should now have a copy of the original repository in your GitHub account.
+V. Changes made to the forked repository can be merged with the original repository via a pull request.
+
+### **6.2-Making a Local Clone**
+
+By cloning a GitHub Repository, you can create a local copy on your computer of the remote repository. This allows you to make all of your edits locally, rather than directly in the source files of the origin repository, by using the following steps:
+
+I. Log in to GitHub
+II. Navigate to the main page of the GitHub Repository that you want to clone.
+III. Above the list of files, click on the dropdown item called "Code".
+IV. To clone the repository using HTTPS, copy the link under "HTTPS".
+V. Open Git Bash.
+VI. Change the current working directory to the location where you want the cloned directory to be made.
+VII. Type `git clone`, and then paste the URL you copied in Step 4.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+VIII. Finally, press Enter. Your local clone has now been created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
+
+Changes made on the local machine (cloned repository) can be pushed to the upstream repository directly if you have a write access for the repository. Otherwise, the changes made in the cloned repository are first pushed to the forked repository, and then a pull request is created.
+
+[Click Here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) for a more comprehensive guide on how to complete the above process.
+
+## **7-Credits**
+
+### **7.1-Content**
+
+### **7.2-Media**
+- [Font Awesome](https://fontawesome.com/) for the icons used in the footer of this site.
+- [Favicon](https://favicon.io/) for the favicon used for this site.
+
+### **7.3-Acknowlegements**
+
+- My cousin, Felipe Giubilei, for provinding his beatiful pictures.
+- My mentor, Darío Carrasquel, for his support and constructive feedback.
+- My informal mentor and good friend, Bruno Dias, for his helpful and supportive advice.
+- My partner, Joana, and my sister, Patrícia, for testing the website.
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+
