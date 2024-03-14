@@ -225,9 +225,9 @@ I accomplished this design based on the Love Running Project.
 
 I decided on a minimalistic footer element that contains a call to action for promoting social media. Font Awesome icons link the anchor element to the photographer's social media pages. Responsivity was used in this section, aligning call to action text and social media icons in the desktop/tablet version and stacking the text on top of the latter in the mobile versions. Desktop version also features a transform tex-size while hovering the social media icons.
 
-[Footer Mobile](docs/documentation/footer-element-mobile.png)
+![Footer Mobile](docs/documentation/footer-element-mobile.png)
 
-[Footer Desktop](docs/documentation/footer-element-desktop.png)
+![Footer Desktop](docs/documentation/footer-element-desktop.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
@@ -235,26 +235,44 @@ I decided on a minimalistic footer element that contains a call to action for pr
 
 ##### **About Section**
 
+About is comprised of a div with as child elements a picture of the photographer, with a border radius of 50% so it appears as a circle (inspired by Love Running Project), and the text with a description of Felipe's career. The elements are contained by a gradient border that matches the website's visual identity, which is, in fact, another box with a slightly bigger size than a white background box. The responsivity in this element makes the picture be located above the text in mobile versions (flex column) and aligned to text in large screens (flex row).
+
+![About Section: Mobile and Desktop](docs/documentation/about.png)
+
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ##### **Partner Section**
+
+The Partners section has been designed to contain the logos, as well as the anchor links to access their respective websites. I've added the border-radius 50% property to display them as circles. There is also a background image to add visual appeal to this element. 
+
+I added responsiveness to both the background, which in the large screen version takes up the entire width of the screen, while in the mobile version, this element becomes a box with rounded edges. 
+
+The logos are stacked in the mobile version and remain in a single line for screens with a resolution higher than 768px. Finally, I added a hover scale and box shadow effect to the desktop version.
+
+![Partners](docs/documentation/partners.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 #### **Gallery Page**
 
+I've implemented thumbnails on the gallery page in the format of polaroid boxes already used for each themed gallery. Similar to other responsive elements, the images are stacked in the mobile version, while in the large-screen versions, they are grouped in rows. In the desktop version, interactivity is via the transform scale effect by hovering the mouse.
+
+![Gallery Mobile](docs/documentation/gallery-mobille.png)
+
+![Gallery Desktop](docs/documentation/gallery-desktop.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
-##### **Gallery Themed Pages**
+##### **Gallery-Themed Pages**
 
-[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+The thematic gallery pages followed similar patterns to those implemented in the Love Running Project. The choice of several galleries proved to be a good option in terms of performance.
 
-##### **Gallery Videos**
+![Gallery Thematic](docs/documentation/gallery-theme-pages.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 #### **Contact Page**
+
 
 ##### **Contact Form**
 
@@ -424,7 +442,7 @@ Page	|	Score	|	Screenshots
 
 ### **5.3. Unsolved Bugs** 
 
-- - There is a thin white line at the bottom of the desktop version. This bug is due to the transfrom hover font-size in the social media icons. The transform scale effect doesn't work on Font-Awesome icons, so I opt to maintain the hover effect, regardless of the white bottom line.
+- There is a thin white line at the bottom of the desktop version. This bug is due to the transfrom hover font-size in the social media icons. The transform scale effect doesn't work on Font-Awesome icons, so I opt to maintain the hover effect, regardless of the white bottom line.
 
 ![thin white line](error-persistent-1-footer-white-line)
 
