@@ -284,6 +284,7 @@ I opted to change the post method redirecting to Code Institute dump page to a U
 
 ![W3 validator Contact](docs/documentation/w3-checker-contact.png)
 
+##### **W3C Validation Chart**
 |	Page	|	Result	|	Screenshot	|
 |	 :----	|	  :----	|	  :------------:|
 |	[Index](https://hpesciotti.github.io/FGiubilei/index.html)	|	No erros/warnings	|	[W3 validator Index](docs/documentation/w3-checker-index.png)	|
@@ -310,6 +311,41 @@ I opted to change the post method redirecting to Code Institute dump page to a U
 
 #### **Performance Lighthouse**
 
+I have received relatively low-performance ratings from Google Chrome Lighthouse-DevTools. Although I thoroughly compact the images and convert them to WebP, the scores on some pages, notably the gallery pictures, are sometimes lower than 80. I asked my mentor([mine](docs/documentation/lighthouse-gallery-familly-desktop.png), [his](docs/documentation/lighthouse-mentor.png)) and a friend([mine](docs/documentation/lighthouse-index-desktop.png), [his](docs/documentation/lighthouse-friend.png)) to check the performance of some random pages, and they got good results. My internet connection was unstable during the tests. 
+
+##### **Lighthouse performance Chart - Desktop**
+Page	|	Score	|	Screenshots
+ :----	|	  :----	|	  :------------
+[Index](https://hpesciotti.github.io/FGiubilei/index.html)	|	79	|	[W3 validator Index](docs/documentation/lighthouse-index-desktop.png)
+[Contact](https://hpesciotti.github.io/FGiubilei/contact.html)	|	95	|	[W3 validator Contact](docs/documentation/w3-checker-contact-desktop.png)
+[About](https://hpesciotti.github.io/FGiubilei/about.html)	|	88	|	[W3 validator About](docs/documentation/w3-checker-about-desktop.png)
+[Thank You](https://hpesciotti.github.io/FGiubilei/thank-you.html)	|	91	|	[W3 validator Thank-You](docs/documentation/w3-checker-thank-you-desktop.png)
+[404](https://hpesciotti.github.io/FGiubilei/404.html)	|	92	|	[W3 validator 404](docs/documentation/w3-checker-404-desktop.png)
+[Gallery](https://hpesciotti.github.io/FGiubilei/gallery.html)	|	79	|	[W3 validator Gallery](docs/documentation/w3-checker-gallery-desktop.png)
+[Gallery-Family Moments](https://hpesciotti.github.io/FGiubilei/gallery-family.html)	|	86	|	[W3 validator Gallery-Family Moments](docs/documentation/w3-checker-gallery-family-desktop.png)
+[Gallery-Concerts](https://hpesciotti.github.io/FGiubilei/gallery-concerts.html)	|	83	|	[W3 validator Gallery-Concerts](docs/documentation/w3-checker-gallery-concerts-desktop.png)
+[Gallery-Solo Photoshoots](https://hpesciotti.github.io/FGiubilei/gallery-solo.html)	|	82	|	[W3 validator Gallery-Solo Photoshoots](docs/documentation/w3-checker-gallery-solo-desktop.png)
+[Gallery-Urban Pictures](https://hpesciotti.github.io/FGiubilei/gallery-urban.html)	|	77	|	[W3 validator Gallery-Urban Pictures](docs/documentation/w3-checker-gallery-urban-desktop.png)
+[Gallery-Videos](https://hpesciotti.github.io/FGiubilei/gallery-video.html )	|	87	|	[W3 validator Gallery-Videos](docs/documentation/w3-checker-gallery-video-desktop.png)
+[Gallery-Weddings](https://hpesciotti.github.io/FGiubilei/gallery-weddings.html)	|	79	|	[W3 validator Gallery-Weddings](docs/documentation/w3-checker-gallery-weddings-desktop.png)
+[Gallery-Institutional Events](https://hpesciotti.github.io/FGiubilei/gallery-i-events.html)	|	79	|	[W3 validator Gallery-Institutional Events](docs/documentation/w3-checker-gallery-i-events-desktop.png)
+
+##### **Lighthouse performance Chart - Mobile**
+|	Page	|	Score	|	Screenshots
+|	 :----	|	  :----	|	  :------------
+|	[Index](https://hpesciotti.github.io/FGiubilei/index.html)	|	78	|	[W3 validator Index](docs/documentation/lighthouse-index-mobile.png)
+|	[Contact](https://hpesciotti.github.io/FGiubilei/contact.html)	|	94	|	[W3 validator Contact](docs/documentation/w3-checker-contact-mobile.png)
+|	[About](https://hpesciotti.github.io/FGiubilei/about.html)	|	89	|	[W3 validator About](docs/documentation/w3-checker-about-mobile.png)
+|	[Thank You](https://hpesciotti.github.io/FGiubilei/thank-you.html)	|	96	|	[W3 validator Thank-You](docs/documentation/w3-checker-thank-you-mobile.png)
+|	[404](https://hpesciotti.github.io/FGiubilei/404.html)	|	92	|	[W3 validator 404](docs/documentation/w3-checker-404-mobile.png)
+|	[Gallery](https://hpesciotti.github.io/FGiubilei/gallery.html)	|	79	|	[W3 validator Gallery](docs/documentation/w3-checker-gallery-mobile.png)
+|	[Gallery-Family Moments](https://hpesciotti.github.io/FGiubilei/gallery-family.html)	|	84	|	[W3 validator Gallery-Family Moments](docs/documentation/w3-checker-gallery-family-mobile.png)
+|	[Gallery-Concerts](https://hpesciotti.github.io/FGiubilei/gallery-concerts.html)	|	86	|	[W3 validator Gallery-Concerts](docs/documentation/w3-checker-gallery-concerts-mobile.png)
+|	[Gallery-Solo Photoshoots](https://hpesciotti.github.io/FGiubilei/gallery-solo.html)	|	82	|	[W3 validator Gallery-Solo Photoshoots](docs/documentation/w3-checker-gallery-solo-mobile.png)
+|	[Gallery-Urban Pictures](https://hpesciotti.github.io/FGiubilei/gallery-urban.html)	|	76	|	[W3 validator Gallery-Urban Pictures](docs/documentation/w3-checker-gallery-urban-mobile.png)
+|	[Gallery-Videos](https://hpesciotti.github.io/FGiubilei/gallery-video.html )	|	88	|	[W3 validator Gallery-Videos](docs/documentation/w3-checker-gallery-video-mobile.png)
+|	[Gallery-Weddings](https://hpesciotti.github.io/FGiubilei/gallery-weddings.html)	|	81	|	[W3 validator Gallery-Weddings](docs/documentation/w3-checker-gallery-weddings-mobile.png)
+|	[Gallery-Institutional Events](https://hpesciotti.github.io/FGiubilei/gallery-i-events.html)	|	77	|	[W3 validator Gallery-Institutional Events](docs/documentation/w3-checker-gallery-i-events-mobile.png)
 
 
 ### **5.2. Bugs & Fixes** 
