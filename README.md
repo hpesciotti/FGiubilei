@@ -209,7 +209,13 @@ I accomplished this design based on the Love Running Project.
 
 ### **3.2. Future Features**
 
+- I intend to add a fully functional form that is able to store messages on a server.
 
+- To employ numbered pages on the gallery-themed pages to improve performance.
+
+- A functionality that could enlarge the selected picture on the gallery to full page.
+
+- An option to acquire/download the website photos.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
