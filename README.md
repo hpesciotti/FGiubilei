@@ -221,6 +221,53 @@ I accomplished this design based on the Love Running Project.
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
+##### **Footer Section**
+
+I decided on a minimalistic footer element that contains a call to action for promoting social media. Font Awesome icons link the anchor element to the photographer's social media pages. Responsivity was used in this section, aligning call to action text and social media icons in the desktop/tablet version and stacking the text on top of the latter in the mobile versions. Desktop version also features a transform tex-size while hovering the social media icons.
+
+[Footer Mobile](docs/documentation/footer-element-mobile.png)
+
+[Footer Desktop](docs/documentation/footer-element-desktop.png)
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+#### **About Page**
+
+##### **About Section**
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+##### **Partner Section**
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+#### **Gallery Page**
+
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+##### **Gallery Themed Pages**
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+##### **Gallery Videos**
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+#### **Contact Page**
+
+##### **Contact Form**
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+#### **Thank You Page**
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
+#### **Error 404 Page**
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
 ### **3.2. Future Features**
 
 - I intend to add a fully functional form that is able to store messages on a server.
@@ -361,20 +408,27 @@ Page	|	Score	|	Screenshots
 |	[Gallery-Weddings](https://hpesciotti.github.io/FGiubilei/gallery-weddings.html)	|	81	|	[W3 validator Gallery-Weddings](docs/documentation/w3-checker-gallery-weddings-mobile.png)
 |	[Gallery-Institutional Events](https://hpesciotti.github.io/FGiubilei/gallery-i-events.html)	|	77	|	[W3 validator Gallery-Institutional Events](docs/documentation/w3-checker-gallery-i-events-mobile.png)
 
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ### **5.2. Bugs & Fixes** 
 
+##### **Bugs & Fixes - Chart**
 |	Bug	|	Sollution	|	Screenshots
 |	 :----	|	  :----	|	  :------------
-|	Font Awesome Icons wasn't being overridden by  footer style it keeps the open link appearance	|	Add to *wildcard operator: text-decoration: none; list-style: none; color: inherit;	|	[Solution](docs/documentation/error-1-font-awesome.png)
-|	"Call to Action" pink box is not aligned to the hero section in mobile with large screens	|	Add relative units in mobile version (55em)	|	[Issue](docs/documentation/error-2-floating-box.png) / [Solution](docs/documentation/error-2-solution.png)
-|	Contact Form was not aligned to left corner of the page in iPad Air	|	Add a media querry for 800px	|	[Issue](docs/documentation/error-3-issue-left-form.png) / [Solution](docs/documentation/error-3-solution-left-form.png)
-|	Performance Issues due to high resolution photos in jpg format	|	Resize and compact images and transform JPG to WEBP by CloudConvert. <br>The image had been compacted once via Tiny Png, but it was needed further compression.	|	[Issue](docs/documentation/error-4-heavy-images)
-
+|	Font Awesome Icons wasn't being overridden by  footer style it keeps the open link appearance	|	Add to *wildcard operator: text-decoration: none; list-style: none; color: inherit;	|	[Fix](docs/documentation/error-1-font-awesome.png)
+|	"Call to Action" pink box is not aligned to the hero section in mobile with large screens	|	Add relative units in mobile version (55em)	|	[Bug](docs/documentation/error-2-floating-box.png) / [Fix](docs/documentation/error-2-solution.png)
+|	Contact Form was not aligned to left corner of the page in iPad Air	|	Add a media querry for 800px	|	[Bug](docs/documentation/error-3-issue-left-form.png) / [Fix](docs/documentation/error-3-solution-left-form.png)
+|	Performance Issues due to high resolution photos in jpg format	|	Resize and compact images and transform JPG to WEBP by CloudConvert. <br>The image had been compacted once via Tiny Png, but it was needed further compression.	|	[Bug](docs/documentation/error-4-heavy-images)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ### **5.3. Unsolved Bugs** 
+
+- - There is a thin white line at the bottom of the desktop version. This bug is due to the transfrom hover font-size in the social media icons. The transform scale effect doesn't work on Font-Awesome icons, so I opt to maintain the hover effect, regardless of the white bottom line.
+
+![thin white line](error-persistent-1-footer-white-line)
+
+- Another error, already mentioned before, was diagnosed by the W3C validator as a bad value URL attribute method on the element form on the contact page. 
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
@@ -394,6 +448,8 @@ V. Under "Source", click on the dropdown item called "None", select "Master", an
 VI. The page will automatically refresh.
 VII. Now you should see a notification message that provides the now published site link: “Your site is ready to be published at [https://hpesciotti.github.io/FGiubilei/](https://hpesciotti.github.io/FGiubilei/)”.
 
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
+
 ### **6.2. Forking the GitHub Repository**
 
 By forking the GitHub repository you can make a copy of the original repository on your GitHub account. You can view and/or make changes to this copy, without affecting the original repository, by using the following steps:
@@ -403,6 +459,8 @@ II. Navigate to the main page of the GitHub Repository that you want to fork.
 III. At the top right of the Repository, just below your profile picture, find the "Fork" button.
 IV. You should now have a copy of the original repository in your GitHub account.
 V. Changes made to the forked repository can be merged with the original repository via a pull request.
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ### **6.3. Making a Local Clone**
 
@@ -456,6 +514,8 @@ Changes made on the local machine (cloned repository) can be pushed to the upstr
 - [Alice Hillier/rainforest-cafe](https://github.com/alicehillier/rainforest-cafe): for README structure and Markdown guidance.
 
 - [Amy Richardson/scoops](https://amylour.github.io/scoops_pp1): for README structure and Markdown guidance.
+
+[Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 ### **7.2. Media**
 
