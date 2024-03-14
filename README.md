@@ -273,16 +273,33 @@ The thematic gallery pages followed similar patterns to those implemented in the
 
 #### **Contact Page**
 
-
 ##### **Contact Form**
+
+The form section consists of a simple form with a name, subject, e-mail and message field. Insert place holder text in order to engage the user more when filling in the form. In addition, there is a background image to contribute to the aesthetics of the site.
+
+At first, I used the POST email action to redirect the messages directly to the email, but the redirection occurred via MS Outlook or similar software. I found this solution to be inelegant.
+
+I then migrated the form to the FormSubmit online service, which, although functional, did not have a "Thank you for entering in contact" page. In addition, the third-party service had high latency. 
+
+Finally, guided by my mentor and my cohort facilitator, I changed the POST action to a URL action, which takes the user to a "Thank you for entering in contact" page.
+
+![Form Section](docs/documentation/form-contact.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 #### **Thank You Page**
 
+The "Thank you" page will appear after you have filled in the contact form. Its purpose is to confirm that the message sent by the user has been sent. The page has a meta tag which, at some point, redirects the user to the landing page.
+
+![Thank You page](docs/documentation/thank-you-page.png)
+
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
 #### **Error 404 Page**
+
+This is a conventional 404 error page, with text explaining that a link is missing. I designed the page with a button to return to the index page; in fact, the button is just an anchor element. This customized page replaces the standard GitHub page.
+
+![Error 404](docs/documentation/error-404.png)
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
@@ -339,6 +356,8 @@ The thematic gallery pages followed similar patterns to those implemented in the
 - Google Lighthouse: for auditing the performance of the website
 
 - W3C Validator: for validating the HTML and CSS code 
+
+- MS Paint: for editing the captured screenshots
 
 [Back to top](https://github.com/hpesciotti/FGiubilei/?tab=readme-ov-file#felipe-giubilei-photography)
 
